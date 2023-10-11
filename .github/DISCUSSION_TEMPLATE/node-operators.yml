@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Node Operator Questions
+        # Node Operator Questions
         
         Before proceeding, please check the discussion section for duplicaate questions and check out these links for node operator information:
          - [Node Operator Guide](https://community.optimism.io/docs/developers/bedrock/node-operator-guide/)
@@ -14,5 +14,6 @@ body:
     id: issue-description
     attributes:
       label: Issue Description
+      description: Please describe, in detail, the issue you are having.
     validations:
       required: true
