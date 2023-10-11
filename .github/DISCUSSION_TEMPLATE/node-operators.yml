@@ -1,0 +1,18 @@
+title: "[Node Operator] <Title>"
+labels: ["node-operator"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Node Operator Questions
+        
+        Before proceeding, please check the discussion section for duplicaate questions and check out these links for node operator information:
+         - [Node Operator Guide](https://community.optimism.io/docs/developers/bedrock/node-operator-guide/)
+         - [Building a Node from Source](https://community.optimism.io/docs/developers/nodes/intro/)
+        
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+    validations:
+      required: true
