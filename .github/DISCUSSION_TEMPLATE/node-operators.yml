@@ -1,4 +1,4 @@
-title: "[Node Operator] <Title>"
+title: "[Node Operator Question] <Title>"
 labels: ["node-operator"]
 body:
   - type: markdown
@@ -17,3 +17,9 @@ body:
       description: Please describe, in detail, the issue you are having.
     validations:
       required: true
+
+  - type: textarea
+    id: node-logs
+    attributes:
+      label: Node Logs
+      description: Please provide relevant logs from the `op-node` and/or `op-geth`.
