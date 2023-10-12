@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # 
+        # Application Development - Building on top of the OP Stack
         
         Before proceeding, please check the discussion section for duplicate questions and check out:
          - 
