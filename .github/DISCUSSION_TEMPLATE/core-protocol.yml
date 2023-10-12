@@ -1,0 +1,24 @@
+title: "[Core Protocol] <Title>"
+labels: ["core-protocol"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 
+        
+        Before proceeding, please check the discussion section for duplicaate questions and check out:
+         - 
+         
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: Please describe, in detail, the issue you are having.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Please provide any additional information that may help us answer your question.
