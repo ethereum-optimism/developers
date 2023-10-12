@@ -6,7 +6,7 @@ body:
       value: |
         # Deploying the OP Stack Questions
         
-        Before proceeding, please check the discussion section for duplicaate questions and check out the OP Stack Documentation:
+        Before proceeding, please check the discussion section for duplicate questions and check out the OP Stack Documentation:
          - [OP Stack Docs](https://stack.optimism.io/)
          
   - type: textarea
