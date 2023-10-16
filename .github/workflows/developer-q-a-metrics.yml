@@ -1,8 +1,8 @@
-name: Monthly issue metrics
+name: Monthly Developer Q/A Report
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 2 1 * *'
+    - cron: '0 0 1 * *'
 
 permissions:
   issues: write
@@ -37,7 +37,7 @@ jobs:
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
       with:
-        title: $last_month Developer Q/A Report
+        title: Monthly Developer Q/A Report
         token: ${{ secrets.GITHUB_TOKEN }}
         content-filepath: ./issue_metrics.md
         assignees: sbvegan
