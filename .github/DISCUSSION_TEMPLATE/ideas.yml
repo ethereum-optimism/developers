@@ -1,0 +1,15 @@
+title: "[Idea] <Title>"
+labels: ["idea-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Idea Discussion
+        
+  - type: textarea
+    id: idea-discussion
+    attributes:
+      label: Idea
+      description: Tell us about your idea!
+    validations:
+      required: true
