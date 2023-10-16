@@ -1,0 +1,9 @@
+title: "[General] <Title>"
+labels: ["general-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # General Discussion
+        
+        
