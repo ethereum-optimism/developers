@@ -24,7 +24,7 @@ jobs:
         # Calculate the last day of the previous month
         # last_day=$(date -d "$first_day +1 month -1 day" +%Y-%m-%d)
 
-        first_day=$(date -d "this month" +2023-09-01)
+        first_day=$(date -d "this month" +2023-10-01)
         last_day=$(date -d "$first_day +1 month -1 day" +%Y-%m-%d)
         
         #Set an environment variable with the date range
