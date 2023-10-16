@@ -7,7 +7,9 @@ body:
         # Application Development - Building on top of the OP Stack
         
         Before proceeding, please check the discussion section for duplicate questions and check out:
-         - 
+         - [Our SDK](https://sdk.optimism.io/)
+         - [Fee Estimation package](https://github.com/ethereum-optimism/optimism/tree/develop/packages/fee-estimation) - pull out of our SDK for lightweight frontend fee estimation.
+         - [op-viem](https://github.com/base-org/op-viem) - Viem extensions for the OP Stack
          
   - type: textarea
     id: issue-description
