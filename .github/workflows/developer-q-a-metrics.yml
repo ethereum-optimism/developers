@@ -19,12 +19,9 @@ jobs:
       shell: bash
       run: |
         # Calculate the first day of the previous month
-        # first_day=$(date -d "last month" +%Y-%m-01)
+        first_day=$(date -d "last month" +%Y-%m-01)
 
         # Calculate the last day of the previous month
-        # last_day=$(date -d "$first_day +1 month -1 day" +%Y-%m-%d)
-
-        first_day=$(date -d "this month" +2023-10-01)
         last_day=$(date -d "$first_day +1 month -1 day" +%Y-%m-%d)
         
         #Set an environment variable with the date range
@@ -40,7 +37,7 @@ jobs:
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
       with:
-        title: Monthly developer question and answer metrics report
+        title: $last_month Developer Q/A Report
         token: ${{ secrets.GITHUB_TOKEN }}
         content-filepath: ./issue_metrics.md
         assignees: sbvegan
