@@ -6,7 +6,7 @@ on:
 
 permissions:
   issues: write
-  pull-requests: read
+  discussions: read
 
 jobs:
   build:
@@ -35,7 +35,7 @@ jobs:
       uses: github/issue-metrics@v2.11.0
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:ethereum-optimism/developers type:discussions created:${{ env.last_month }}'
+        SEARCH_QUERY: 'repo:ethereum-optimism/developers type:discussions created:${{ env.last_month }} label:"discussion-metrics"'
 
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
