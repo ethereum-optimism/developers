@@ -4,7 +4,7 @@ This repository is to serve as a place where builders on every level of the OP S
 
 ## How to use this repository
 
-### Developer Question and Answers
+### Developer Question and Answers ❓
 
 If you have developer questions head over to our [Discussions](https://github.com/ethereum-optimism/developers/discussions) section. Tips on how to ask good questions:
 
@@ -17,7 +17,7 @@ If you have developer questions head over to our [Discussions](https://github.co
 
 When you get your answer, please mark it. We're always open to constructive feedback, so let us know how we're doing!
 
-## Redirect
+## Redirects ↩️
 
 If this repository is not what you're looking for, maybe one of the following channels may serve you better.
 
@@ -28,6 +28,6 @@ If this repository is not what you're looking for, maybe one of the following ch
 |[Governance Forum](https://gov.optimism.io/)| Discussion for governing the Optimism Collective. |
 |[Connect with OP Labs](https://airtable.com/appQ2S9IatldkoNQw/shr2e75GnXRqi6yTM) | Form to connect with OP Labs.|
 
-## Thank you :heart: 
+## Thank you ❤️ 
 
 Thank you for taking your time to participate in this community. You're what makes the [Optimism Collective](https://optimism.mirror.xyz/gQWKlrDqHzdKPsB1iUnI-cVN3v0NvsWnazK7ajlt1fI) improve and grow to serve [Ether's Phoenix](https://optimism.mirror.xyz/x4LGFwa6RJ_opOaCOwr_VGk04Lp3of41H8ynWaFB27E)!
