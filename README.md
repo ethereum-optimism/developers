@@ -13,7 +13,7 @@ If you have developer questions head over to our [Discussions](https://github.co
 - **Be specific and clear.** Provide as much detail as possible. Include error messages, logs, code snippets, and a description of what you've tried so far.
 - **Explain your goal or intention.** This can help us provide a more relevant and helpful answer.
 - **Consider including a minimal reproducible example.** Being able to reproduce your issue makes it much easier for us to understand and diagnose the problem.
-- **Be patient and respectful.** We are a community of people (and maybe some benevolant AIs), so please be kind. Always abide by our [Code of Conduct](./CODE_OF_CONDUCT.md).
+- **Be patient and respectful.** We are a community of people (and maybe some benevolant AIs), so please be kind. Always abide by our [Code of Conduct](./docs/CODE_OF_CONDUCT.md).
 
 When you get your answer, please mark it. We're always open to constructive feedback, so let us know how we're doing!
 
