@@ -17,6 +17,10 @@ If you have developer questions head over to our [Discussions](https://github.co
 
 When you get your answer, please mark it. We're always open to constructive feedback, so let us know how we're doing!
 
+## Community Resources
+
+Check out the developer tools and resources we have in the [community](./community) directory. Create a PR to add the OP Stack tools and resources you use or built!
+
 ## Redirects ↩️
 
 If this repository is not what you're looking for, maybe one of the following channels may serve you better.
@@ -26,7 +30,13 @@ If this repository is not what you're looking for, maybe one of the following ch
 |[Technical Documentation](https://community.optimism.io/)| Technical documentation for all layers of the OP Stack. |
 |[Community Documentation](https://community.optimism.io)| Community documentation for all things happening in the collective. |
 |[Governance Forum](https://gov.optimism.io/)| Discussion for governing the Optimism Collective. |
+
+If you're trying to get in touch with OPLabs, check out the following forms.
+
+| Form | Description |
+|---------|-------------|
 |[Connect with OP Labs](https://airtable.com/appQ2S9IatldkoNQw/shr2e75GnXRqi6yTM) | Form to connect with OP Labs.|
+|[Marketing Amplification Form](https://airtable.com/appQ2S9IatldkoNQw/shrIqJsv2nyBUo6Ka) | Request co-marketing from OPLabs.|
 
 ## Thank you ❤️ 
 
