@@ -1,4 +1,4 @@
-name: Monthly Developer Discussions Report
+name: Monthly Developer Discussion Metrics Report
 on:
   workflow_dispatch:
   schedule:
