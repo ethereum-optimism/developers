@@ -32,7 +32,7 @@ jobs:
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:owner/repo is:issue created:2023-10-01..2023-10-31 -reason:"not planned"'
+        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue created:2023-10-01..2023-10-31 -reason:"not planned"'
 
     - name: Create issue for opened issues and prs
       uses: peter-evans/create-issue-from-file@v4
@@ -46,7 +46,7 @@ jobs:
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:owner/repo is:issue closed:2023-10-01..2023-10-31 -reason:"not planned"'
+        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue closed:2023-10-01..2023-10-31 -reason:"not planned"'
 
     - name: Create issue for closed issues and prs
       uses: peter-evans/create-issue-from-file@v4
