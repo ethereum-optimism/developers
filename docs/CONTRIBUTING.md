@@ -18,6 +18,12 @@ This section is for general discussion, share ideas, and show off the things you
 
 Ask and answer developer questions relating to the core protocol, deploying an OP Stack chain, developing on an OP Chain / OP Stack Chain, node operation, and other miscellaneous questions.
 
+### [Community](./community)
+
+#### Create a PR
+
+Create a PR to add a OP Stack developer resource or tool to the list. Please include the link as a header tag and a short description underneath. 
+
 ### Issues
 
 #### Create a new issue
