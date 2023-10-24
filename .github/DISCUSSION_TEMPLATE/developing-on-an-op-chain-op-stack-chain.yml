@@ -1,5 +1,5 @@
 title: "[Application Development] <Title>"
-labels: ["app-development"]
+labels: ["app-development", "discussion-metrics"]
 body:
   - type: markdown
     attributes:
