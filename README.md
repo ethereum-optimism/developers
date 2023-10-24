@@ -19,6 +19,8 @@ When you get your answer, please mark it. We're always open to constructive feed
 
 ## Community Resources
 
+**Disclaimer: The contents of this directory do not imply endorsement. All content should be evaluated independently.**
+
 Check out the developer tools and resources we have in the [community](./community) directory. Create a PR to add the OP Stack tools and resources you use or built!
 
 ## Redirects ↩️
