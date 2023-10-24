@@ -6,7 +6,7 @@ Contributions to this directory can be made by anyone. They just need to follow 
 
 ## Guidelines
 
-**Disclaimer: The contents of this directory does not imply endorsement. All content should be evaluated independently.**
+**Disclaimer: The contents of this directory do not imply endorsement. All content should be evaluated independently.**
 
 ### Purpose
 
