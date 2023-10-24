@@ -1,5 +1,5 @@
 title: "[Node Operator Question] <Title>"
-labels: ["node-operator"]
+labels: ["node-operator", "discussion-metrics"]
 body:
   - type: markdown
     attributes:
