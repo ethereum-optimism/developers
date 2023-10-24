@@ -1,5 +1,5 @@
 title: "[OP Stack Deployment] <Title>"
-labels: ["op-stack-deployment"]
+labels: ["op-stack-deployment", "discussion-metrics"]
 body:
   - type: markdown
     attributes:
