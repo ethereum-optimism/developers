@@ -1,5 +1,5 @@
 title: "[Core Protocol] <Title>"
-labels: ["core-protocol"]
+labels: ["core-protocol", "discussion-metrics"]
 body:
   - type: markdown
     attributes:
