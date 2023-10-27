@@ -20,7 +20,7 @@ Ask and answer developer questions relating to the core protocol, deploying an O
 
 ### Create a PR
 
-#### [Community](../community) Section
+#### [Community Section](../community) 
 
 Create a PR to add a OP Stack developer resource or tool to the list. Please include the link as a header tag and a short description underneath. It should look something like this:
 
