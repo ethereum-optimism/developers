@@ -1,0 +1,16 @@
+title: "[Show and Tell] <Title>"
+labels: ["show-and-tell",]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Show and Tell
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please tell us about what you've built!
+    validations:
+      required: true
+
