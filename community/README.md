@@ -23,3 +23,7 @@ Contributions to this directory are intended to support the developers building 
 ### Maintenance
 
 OP Labs cannot commit to maintaing third-party resources. We'll leave it up to the authors and community to maintain these resources.
+
+### Contributing
+
+Please consult the instructions in our [CONTRIBUTING](../docs/CONTRIBUTING.md) document before openning a PR.
