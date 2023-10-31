@@ -11,3 +11,11 @@ Feel free to try [fast and reliable nodes](https://drpc.org/public-endpoints/opt
 
 - OP Mainnet
 - OP Goerli
+
+## [1RPC](https://www.1rpc.io/)
+
+[1RPC](https://1rpc.io/) is the first and only on-chain attested privacy preserving RPC that eradicate metadata exposure and leakage when interacting with blockchains. 1RPC offers free and [subscription plans](https://www.1rpc.io/#pricing) with dedicated unique API keys and higher rate limits. Access 1RPC OP Mainnet endpoints [here](https://docs.1rpc.io/overview/supported-networks#optimism).
+
+### Supported Networks
+
+- OP Mainnet
