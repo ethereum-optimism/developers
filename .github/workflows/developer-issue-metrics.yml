@@ -32,7 +32,7 @@ jobs:
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue created:${{ env.last_month }} -reason:"not planned"'
+        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue created:${{ env.last_month }} -reason:"not planned" -label:monthly-report'
 
     - name: Create issue for opened issues
       uses: peter-evans/create-issue-from-file@v4
@@ -46,7 +46,7 @@ jobs:
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue closed:${{ env.last_month }} -reason:"not planned"'
+        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue closed:${{ env.last_month }} -reason:"not planned" -label:monthly-report'
 
     - name: Create issue for closed issues
       uses: peter-evans/create-issue-from-file@v4
