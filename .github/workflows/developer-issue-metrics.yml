@@ -37,7 +37,7 @@ jobs:
     - name: Create issue for opened issues
       uses: peter-evans/create-issue-from-file@v4
       with:
-        title: ${{ env.last_month }} metrics report for opened issues and prs
+        title: ${{ env.last_month }} metrics report for opened issues
         token: ${{ secrets.GITHUB_TOKEN }}
         content-filepath: ./issue_metrics.md
         assignees: sbvegan
@@ -51,6 +51,6 @@ jobs:
     - name: Create issue for closed issues
       uses: peter-evans/create-issue-from-file@v4
       with:
-        title: ${{ env.last_month }} metrics report for closed issues and prs
+        title: ${{ env.last_month }} metrics report for closed issues
         content-filepath: ./issue_metrics.md
         assignees: sbvegan
