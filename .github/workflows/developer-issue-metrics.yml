@@ -54,3 +54,5 @@ jobs:
         title: ${{ env.last_month }} metrics report for closed issues
         content-filepath: ./issue_metrics.md
         assignees: sbvegan
+        labels: |
+          monthly-report
