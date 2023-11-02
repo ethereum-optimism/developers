@@ -1,4 +1,5 @@
-## [Supra](https://supraoracles.com/docs/overview/)
+# [Supra](https://supraoracles.com/docs/overview/)
+maintainer(s): @ksdumont
 
 ## What is Supra?
 
