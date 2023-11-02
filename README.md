@@ -17,7 +17,7 @@ If you have developer questions head over to our [Discussions](https://github.co
 
 When you get your answer, please mark it. We're always open to constructive feedback, so let us know how we're doing!
 
-## Community Resources
+## Community resources
 
 **Disclaimer: The contents of this directory do not imply endorsement. All content should be evaluated independently.**
 
