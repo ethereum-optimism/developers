@@ -10,8 +10,8 @@ This document provides a comprehensive explanation of the OP Stack codebase, aim
 
 ### [Quix codebase](https://github.com/quixotic-dev?tab=repositories)
 
+Quix was a NFT marketplace, it provided a place to discover, collect, and sell digital items on OP Mainnet. This resource belongs to the Quix team. The code may be partially outdated due to a lack of maintenance.
+
 [Quix announcement](https://twitter.com/qx_app/status/1625225494848483328)：
 > GM everyone! We’re thrilled to announce that the codebase for Quix is now open-source. This includes the frontend and backend code for the NFT marketplace, the NFT indexer, and the launchpad. Now any developer will be able to deploy or extend any part of Quix!
-
-Note: This resource belongs to the Quix team. The code may be partially outdated due to a lack of maintenance.
 
