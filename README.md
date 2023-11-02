@@ -4,7 +4,7 @@ This repository is to serve as a place where builders on every level of the OP S
 
 ## How to use this repository
 
-### Developer Question and Answers ❓
+### Developer question and answers ❓
 
 If you have developer questions head over to our [Discussions](https://github.com/ethereum-optimism/developers/discussions) section. Tips on how to ask good questions:
 
@@ -17,11 +17,11 @@ If you have developer questions head over to our [Discussions](https://github.co
 
 When you get your answer, please mark it. We're always open to constructive feedback, so let us know how we're doing!
 
-## Community Resources
+## Community resources
 
 **Disclaimer: The contents of this directory do not imply endorsement. All content should be evaluated independently.**
 
-Check out the developer tools and resources we have in the [community](./community) directory. Create a PR to add the OP Stack tools and resources you use or built!
+Check out the developer tools and resources we have in the [community](./community) directory. Please follow the guidelines in the [contributing document](./docs/CONTRIBUTING.md) to create a PR to add the OP Stack tools and resources you use or built!
 
 ## Redirects ↩️
 

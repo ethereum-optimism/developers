@@ -28,29 +28,31 @@ jobs:
         echo "$first_day..$last_day"
         echo "last_month=$first_day..$last_day" >> "$GITHUB_ENV"
 
-    - name: Run issue-metrics tool for issues in October 2023
+    - name: Run issue-metrics tool for issues last month
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue created:${{ env.last_month }} -reason:"not planned" -author:github-actions'
+        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue created:${{ env.last_month }} -reason:"not planned" -label:monthly-report'
 
     - name: Create issue for opened issues
       uses: peter-evans/create-issue-from-file@v4
       with:
-        title: ${{ env.last_month }} metrics report for opened issues and prs
+        title: ${{ env.last_month }} metrics report for opened issues
         token: ${{ secrets.GITHUB_TOKEN }}
         content-filepath: ./issue_metrics.md
         assignees: sbvegan
 
-    - name: Run issue-metrics tool for issues and prs closed in May 2023
+    - name: Run issue-metrics tool for issues last month
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue closed:${{ env.last_month }} -reason:"not planned" -author:github-actions'
+        SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue closed:${{ env.last_month }} -reason:"not planned" -label:monthly-report'
 
     - name: Create issue for closed issues
       uses: peter-evans/create-issue-from-file@v4
       with:
-        title: ${{ env.last_month }} metrics report for closed issues and prs
+        title: ${{ env.last_month }} metrics report for closed issues
         content-filepath: ./issue_metrics.md
         assignees: sbvegan
+        labels: |
+          monthly-report
