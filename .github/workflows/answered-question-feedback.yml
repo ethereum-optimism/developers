@@ -21,7 +21,7 @@ jobs:
         with:
           query: |
             query {
-              repository(owner: "sbvegan", name: "csat-test") {
+              repository(owner: "ethereum-optimism", name: "developers") {
                 discussion(number: ${{ github.event.discussion.number }}) {
                   id
                 }
