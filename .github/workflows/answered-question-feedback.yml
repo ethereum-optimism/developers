@@ -1,0 +1,39 @@
+name: Post survey on answered questions
+
+# WIP todo: create survey link and update message
+# on:
+#   discussion:
+#     types: [answered]
+
+permissions:
+  discussions: write
+
+jobs:
+  post-comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run GraphQL Query
+        uses: octokit/graphql-action@v2.x
+        id: get_discussion
+        with:
+          query: |
+            query {
+              repository(owner: "sbvegan", name: "csat-test") {
+                discussion(number: ${{ github.event.discussion.number }}) {
+                  id
+                }
+              }
+            }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment on Discussion
+        uses: wesleyscholl/create-discussion-comment@v1.0.18
+        id: create-comment
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          discussion-id: ${{ fromJSON(steps.get_discussion.outputs.data).repository.discussion.id }}
+          body: Thank you for participating in our discussions! We would love to hear your feedback.
