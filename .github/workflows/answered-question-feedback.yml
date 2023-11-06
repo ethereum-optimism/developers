@@ -24,6 +24,9 @@ jobs:
               repository(owner: "ethereum-optimism", name: "developers") {
                 discussion(number: ${{ github.event.discussion.number }}) {
                   id
+                  author {
+                    login
+                  }
                 }
               }
             }
@@ -36,4 +39,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           discussion-id: ${{ fromJSON(steps.get_discussion.outputs.data).repository.discussion.id }}
-          body: Thank you for participating in our discussions! We would love to hear your feedback.
+          body: Hey ${{ fromJSON(steps.get_discussion.outputs.data).repository.discussion.author.login }}! Thank you for participating in our discussions! We would love to hear your feedback.
