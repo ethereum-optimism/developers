@@ -1,0 +1,15 @@
+title: "[Feedback] <Title>"
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Feedback
+        
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Please provide feedback on how we're doing.
+    validations:
+      required: true
