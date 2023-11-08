@@ -29,7 +29,7 @@ If this repository is not what you're looking for, maybe one of the following ch
 
 | Channel | Description |
 |---------|-------------|
-|[Technical Documentation](https://docs.optimism.io/)| Technical documentation for all layers of the OP Stack. |
+|[Technical Documentation](https://community.optimism.io/)| Technical documentation for all layers of the OP Stack. |
 |[Community Documentation](https://community.optimism.io)| Community documentation for all things happening in the collective. |
 |[Governance Forum](https://gov.optimism.io/)| Discussion for governing the Optimism Collective. |
 
