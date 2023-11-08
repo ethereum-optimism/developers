@@ -1,6 +1,6 @@
-# Data Indexing
+# Blockchain Indexers
 
-Blockchain data is not query-able by default. Indexing tools help with extracting data from blockchain node, transforming it in a way that is understandable by human or computers, and loading it to a database or any other destination for querying.
+Blockchain data is not easily queryable by default. Indexing tools help with extracting data from blockchain node, transforming it in a way that is understandable by human or computers, and loading it to a database or any other destination for querying.
 
 ## Flair
 
