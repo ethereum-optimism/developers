@@ -13,3 +13,9 @@ body:
       description: Please provide feedback on how we're doing.
     validations:
       required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Please provide any additional relevant information i.e. documnetation links
