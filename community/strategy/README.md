@@ -1,4 +1,4 @@
-# Strategy
+# Support Strategy
 
 In the spirit of open source, our strategic planning will be transparent and open to feedback  from contributors. This strategy is focused on developer support for developers of and on the OP Stack.
 
