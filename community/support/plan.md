@@ -8,6 +8,21 @@ Our strategic plans are defined by objectives, goals, non-goals, success criteri
 - The **implementation plan** is a set of reasonably granular steps that indicate how you can achieve the goal.
 - In some cases, it makes sense to assign an **owner** to a goal, even if the owner merely has oveersight in getting it done.
 
+## Table of Contents
+
+- [Strategic Planning](#strategic-planning)
+  - [Table of Contents](#table-of-contents)
+  - [Strategic Goals](#strategic-goals)
+    - [Objective: Provide best in class technical support](#objective-provide-best-in-class-technical-support)
+      - [Goal: Provide quality support and resolve technical questions](#goal-provide-quality-support-and-resolve-technical-questions)
+      - [Goal: Create a welcoming community](#goal-create-a-welcoming-community)
+      - [Goal: Fast response times](#goal-fast-response-times)
+      - [Goal: Use the correct communication channels](#goal-use-the-correct-communication-channels)
+    - [Objective: Maintain our technical documenation and resources](#objective-maintain-our-technical-documenation-and-resources)
+      - [Goal: Turn support requests into reusable documentation](#goal-turn-support-requests-into-reusable-documentation)
+    - [Objective: Track contributions and impact](#objective-track-contributions-and-impact)
+      - [Goal: Track individuals' contributions](#goal-track-individuals-contributions)
+
 ## Strategic Goals
 
 The following is a list of strategic goals for providing technical support to the Optimism Collective.
