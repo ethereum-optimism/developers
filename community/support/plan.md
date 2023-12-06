@@ -92,5 +92,44 @@ Implementation Plan:
 
 ### Objective: Maintain our technical documenation and resources
 
+#### Goal: Turn support requests into reusable documentation
+
+Non-goals:
+
+- Unorganized documentation
+- Overly specific information
+
+Success Criteria:
+
+- Common developer support questions are being translated into documentation that serves as an answer to repeated requests
+
+Implementation Plan:
+
+- Monitor the types of questions that are coming in
+- Identify repeated questions or common themes
+- Take the resolved request and create an issue describing how the documentation can be improved to address these problems. Include links to requests as examples
+- Bonus: make a PR to update the documetnation
+
+Owner: soyboy
+
 ### Objective: Track contributions and impact
 
+#### Goal: Track individuals' contributions
+
+Non-goals:
+
+- Tracking information not related to the TechNERD program
+
+Success Criteria:
+
+- On a weekly basis, we're tracking and recording the contributions you've made that week
+- These metrics are used for RPGF applications
+
+Implementation Plan: (needs workshoping)
+
+- Track your individual contributions
+- Make a PR with your contributions follow TBD format
+- TechNERD steward reviews contributions and makes update requests if necessary
+- Contributions merged into repository
+
+Owner: soyboy
