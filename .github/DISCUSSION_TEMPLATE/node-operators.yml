@@ -45,3 +45,9 @@ body:
     attributes:
       label: Additional Information
       description: Please provide any additional information that may help us answer your question.
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: feedback
+      description: How can we improve? Are there documentation or resources that don't exist and would serve you better?
