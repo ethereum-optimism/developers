@@ -35,6 +35,12 @@ body:
       required: true
 
   - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Please copy and paste relevant logs from the `proposer`, `batcher`, `op-node` and/or `op-geth`.
+
+  - type: textarea
     id: additional-information
     attributes:
       label: Additional Information

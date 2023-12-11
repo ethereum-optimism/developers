@@ -38,4 +38,10 @@ body:
     id: node-logs
     attributes:
       label: Node Logs
-      description: Please provide relevant logs from the `op-node` and/or `op-geth`.
+      description: Please copy and paste relevant logs from the `op-node` and/or `op-geth`.
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Please provide any additional information that may help us answer your question.
