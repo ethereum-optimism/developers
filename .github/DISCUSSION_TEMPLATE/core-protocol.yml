@@ -8,7 +8,29 @@ body:
         
         Before proceeding, please check the discussion section for duplicate questions and check out:
          - [Core Protocol Specs](https://github.com/ethereum-optimism/optimism/blob/develop/specs/README.md)
-         
+  
+  - type: dropdown
+    id: verify-check-docs
+    attributes:
+      label: Did you check the [documentation](https://docs.optimism.io/)?
+      description: Please let us know how we can improve our docs in the additional information section.
+      options:
+        - "Yes"
+        - "No"
+      validations:
+        required: true
+
+  - type: dropdown
+    id: verify-check-specs
+    attributes:
+      label: Did you check the [specs](https://github.com/ethereum-optimism/optimism/tree/develop/specs)?
+      description: The core protocol is covered in detail in the specs.
+      options:
+        - "Yes"
+        - "No"
+      validations:
+        required: true
+        
   - type: textarea
     id: issue-description
     attributes:
