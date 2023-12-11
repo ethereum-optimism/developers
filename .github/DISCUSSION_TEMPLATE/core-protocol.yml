@@ -13,7 +13,7 @@ body:
     id: verify-check-docs
     attributes:
       label: Did you check the [documentation](https://docs.optimism.io/)?
-      description: Please let us know how we can improve our docs in the additional information section.
+      description: Please let us know how we can improve our [docs](https://docs.optimism.io/) in the additional information section.
       options:
         - label: "Yes"
           required: true
@@ -25,7 +25,7 @@ body:
       description: The core protocol is covered in detail in the specs.
       options:
         - label: "Yes"
-          required: true
+        - label: "No"
         
   - type: textarea
     id: issue-description
