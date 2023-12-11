@@ -6,8 +6,25 @@ body:
       value: |
         # Miscellaneous Questions
         
-        Before proceeding, please check the discussion section for duplicate questions and check out our docs:
-         - [Documentation](https://community.optimism.io/)
+        Before proceeding, please consult the following resources.
+
+  - type: checkboxes
+    id: verify-check-docs
+    attributes:
+      label: Did you check the documentation?
+      description: Please let us know how we can improve our [docs](https://docs.optimism.io/) in the additional information section.
+      options:
+        - label: "Yes"
+          required: true
+
+  - type: checkboxes
+    id: verify-check-discussions
+    attributes:
+      label: Did you check for duplicate questions?
+      description: Please check the existing [discussion](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions)
+      options:
+        - label: "Yes"
+          required: true
          
   - type: textarea
     id: issue-description
