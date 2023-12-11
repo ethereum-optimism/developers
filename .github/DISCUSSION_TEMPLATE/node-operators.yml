@@ -49,5 +49,5 @@ body:
   - type: textarea
     id: feedback
     attributes:
-      label: feedback
+      label: Feedback
       description: How can we improve? Are there documentation or resources that don't exist and would serve you better?
