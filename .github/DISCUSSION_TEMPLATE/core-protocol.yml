@@ -15,7 +15,7 @@ body:
       label: Did you check the [documentation](https://docs.optimism.io/)?
       description: Please let us know how we can improve our docs in the additional information section.
       options:
-        - label: Yes
+        - label: "Yes"
           required: true
 
   - type: checkboxes
@@ -24,7 +24,7 @@ body:
       label: Did you check the [specs](https://github.com/ethereum-optimism/optimism/tree/develop/specs)?
       description: The core protocol is covered in detail in the specs.
       options:
-        - label: Yes
+        - label: "Yes"
           required: true
         
   - type: textarea
