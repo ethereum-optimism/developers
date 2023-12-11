@@ -20,8 +20,8 @@ body:
   - type: checkboxes
     id: verify-check-specs
     attributes:
-      label: Did you check the [specs](https://github.com/ethereum-optimism/optimism/tree/develop/specs)?
-      description: The core protocol is covered in detail in the specs.
+      label: Did you read the specs?
+      description: The core protocol is covered in detail in the [specs](https://github.com/ethereum-optimism/optimism/tree/develop/specs).
       options:
         - label: "Yes"
         - label: "No"
