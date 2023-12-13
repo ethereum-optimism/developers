@@ -11,4 +11,9 @@ This session is to understand what training materials would be useful for the Te
 ## Agenda
 
 - Introduction / Purpose / Attendence (~5m)
+- Review our current resources (~15m)
+- Gather gaps in our knowledge (~15m)
+- Training and development we want (~15m)
+- Reflect / Conclude (~5m)
+
 
