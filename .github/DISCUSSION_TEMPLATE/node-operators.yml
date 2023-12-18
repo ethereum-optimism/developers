@@ -34,6 +34,20 @@ body:
     validations:
       required: true
 
+    - type: textarea
+    id: protocol-description
+    attributes:
+      label: Protocol Description
+      description: |
+        Please provide:
+          - `op-geth` version
+          - `op-node` version
+          - network name 
+          - chainid
+          - L1 chain
+    validations:
+      required: true
+
   - type: textarea
     id: node-logs
     attributes:
