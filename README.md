@@ -37,7 +37,7 @@ If you're trying to get in touch with OPLabs, check out the following forms.
 
 | Form | Description |
 |---------|-------------|
-|[Connect with OP Labs](https://airtable.com/appQ2S9IatldkoNQw/pagiw2NJAcOXn5Wd9/form) | Form to connect with OP Labs.|
+|[Connect with OP Labs]() todo: update when form is fixed | Form to connect with OP Labs.|
 |[Marketing Amplification Form](https://airtable.com/appQ2S9IatldkoNQw/shrIqJsv2nyBUo6Ka) | Request co-marketing from OPLabs.|
 
 ## Thank you ❤️ 
