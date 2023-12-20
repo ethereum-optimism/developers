@@ -9,6 +9,15 @@ body:
         Before proceeding, please consult the following resources.
 
   - type: checkboxes
+    id: verify-latest-software
+    attributes:
+      label: Are you running the most up to date node software?
+      description: We only support the latest software releases. See our [documentation](https://docs.optimism.io/builders/node-operators/releases) to check if you're up to date.
+      options:
+        - label: "Yes"
+          required: true
+          
+  - type: checkboxes
     id: verify-check-docs
     attributes:
       label: Did you check the documentation?
@@ -21,7 +30,7 @@ body:
     id: verify-check-discussions
     attributes:
       label: Did you check for duplicate questions?
-      description: Please check the existing [discussion](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions)
+      description: Please check the open and clossed [discussions](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions)
       options:
         - label: "Yes"
           required: true
