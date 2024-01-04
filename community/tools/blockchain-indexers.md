@@ -2,6 +2,8 @@
 
 Blockchain data is not easily queryable by default. Indexing tools help with extracting data from blockchain node, transforming it in a way that is understandable by human or computers, and loading it to a database or any other destination for querying.
 
+Please open a pull request if you'd like a project to be added to this list (guidance: succinct overview of the project / solution highlighting main features, include OP Mainnet / Testnet link or relevant documentation -- character count limit: 500)
+
 ## Flair
 
 [Flair](https://flair.dev) is a real-time and historical custom data indexing for any evm chain.
