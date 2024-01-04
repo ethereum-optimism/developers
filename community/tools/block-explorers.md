@@ -1,6 +1,6 @@
 # Block Explorers
 
-Checkout the block explorers that our community is using or has built! Please open a pull request if you'd like something to be added to this list.
+Checkout the block explorers that our community is using or has built! Please open a pull request if you'd like something to be added to this list (guidance: succinct overview of the project / solution highlighting main features, include OP Mainnet / Testnet link -- character count limit: 500)  
 
 ## Parsec Finance
 
