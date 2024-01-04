@@ -1,6 +1,6 @@
 # Oracles
 
-Checkout the oracles that our community is using or has built! Please open a pull request if you'd like something to be added to this list. Please open a pull request if you'd like a project to be added to this list (guidance: succinct overview of the project / solution highlighting main features, include OP Mainnet / Testnet link or relevant documentation -- character count limit: 500). 
+Checkout the oracles that our community is using or has built! Please open a pull request if you'd like a project to be added to this list (guidance: succinct overview of the project / solution highlighting main features, include OP Mainnet / Testnet link or relevant documentation -- character count limit: 500). 
 
 ## Supra
 
