@@ -19,3 +19,15 @@ Feel free to try [fast and reliable nodes](https://drpc.org/public-endpoints/opt
 ### Supported Networks
 
 - OP Mainnet
+
+## [4EVERLAND](https://www.4everland.org/)
+
+### Description and Pricing
+
+[4EVERLAND](https://www.4everland.org/) offers RPC services for most mainstream chains to facilitate Web3 developers, eliminating the need for running their own clients and enabling interaction with various chains through API requests.
+
+Moreover, 4EVERLAND registered users will receive a complimentary resource package, which includes 5,000,000 times of RPC invocation requests.
+
+### Supported Networks
+
+*   OP Mainnet
