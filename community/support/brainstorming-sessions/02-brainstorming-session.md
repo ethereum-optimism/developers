@@ -12,7 +12,7 @@ This session is to determine what contributions will be tracked in the TechNERD 
 
 - Introduction / Purpose / Attendence (~5m)
 - Explain the t-shirt sizing process proposal (~15m)
-- Collect feedback and ideas (~15m)
+- Collect feedback and suggestions (~15m)
 - Concolude (~5m)
 
 ### Proposal
@@ -38,3 +38,5 @@ The effort classification is a way where we can measure impact individuals are h
 | M            | 3      | Moderately complex issues that require more investigation, troubleshooting, and a moderate amount of time to resolve. A moderate contribution to updating an existing piece of documentation.                               |
 | L            | 5      | Complex problems that demand a significant amount of time, extensive research, and potentially collaboration with contributors outside of the TechNERD program. Creating a whole new page of documentation.                 |
 | XL           | 8      | Highly intricate issues that require substantial time, deep expertise, and possibly coordination across multiple external contributors or extensive debugging. Creating a whole new page of highly technical documentation. |
+
+### Request for feedback and suggestions
