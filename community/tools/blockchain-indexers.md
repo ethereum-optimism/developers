@@ -23,16 +23,16 @@ Designed to optimize the user experience, Envio offers automatic code generation
 To get started, visit the [documentation](https://docs.envio.dev/docs/overview) or follow the [quickstart](https://docs.envio.dev/docs/quickstart) guide.
 
 ## Covalent
-[Covalent](https://www.covalenthq.com/?utm_source=optimism&utm_medium=partner-docs) is a hosted blockchain data solution providing access to historical and current on-chain data for [100+ supported blockchains](https://www.covalenthq.com/docs/networks/?utm_source=optimism&utm_medium=partner-docs), including [Optimism](https://www.covalenthq.com/docs/networks/optimism/?utm_source=optimism&utm_medium=partner-docs).
+[Covalent](https://www.covalenthq.com/?utm_source=optimism&utm_medium=partner-docs) is a hosted blockchain data solution providing access to historical and current on-chain data for [100+ supported blockchains](https://www.covalenthq.com/docs/networks/?utm_source=optimism&utm_medium=partner-docs), including [Optimism](https://www.covalenthq.com/docs/networks/optimism/?utm_source=optimism&utm_medium=partner-docs). Covalent maintains a full archival copy of every supported blockchain, meaning every balance, transaction, log event, and NFT asset data is available from the genesis block. This data is available via:
 ​
-Covalent maintains a full archival copy of every supported blockchain, meaning every balance, transaction, log event, and NFT asset data is available from the genesis block. This data is available via:
+1. **Unified API** - Incorporate blockchain data into your app with a familiar REST API
+2. **Increment** - Create and embed custom charts with no-code analytics
 ​
-1. [Unified API](#unified-api) - Incorporate blockchain data into your app with a familiar REST API
-2. [Increment](#increment) - Create and embed custom charts with no-code analytics
-​
+
 **Use Covalent if you need:**
 * Structured and enhanced on-chain data well beyond what you get from RPC providers
 * Broad and deep multi-chain data at scale
 * Enterprise-grade performance
+
 ​
-To get started, visit the [documentation](https://www.covalenthq.com/docs/unified-api/guides/?utm_source=optimism&utm_medium=partner-docs) or [sign up to start building on Optimism](https://www.covalenthq.com/platform/?utm_source=optimism&utm_medium=partner-docs)
+To get started, visit the [documentation](https://www.covalenthq.com/docs/unified-api/guides/?utm_source=optimism&utm_medium=partner-docs) or [sign up to start building on Optimism](https://www.covalenthq.com/platform/?utm_source=optimism&utm_medium=partner-docs).
