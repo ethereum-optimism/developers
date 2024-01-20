@@ -86,6 +86,11 @@ To get started, click [here](https://www.blockspaces.com/) and leave an email ad
 
 [GetBlock developer](https://getblock.io/en/nodes/optimism/) tools and valuable insights guarantee a simple and reliable API access to multiple blockchains.
 
+### Supported Networks
+
+*   OP Mainnet
+*   OP Sepolia
+
 ## NodeReal
 
 ### Description and pricing
@@ -130,7 +135,3 @@ The URL format is `https://optimism.nownodes.io/?API_key=<API key from NOWNodes`
 
 *   OP Mainnet
 
-### Supported Networks
-
-*   OP Mainnet
-*   OP Sepolia
