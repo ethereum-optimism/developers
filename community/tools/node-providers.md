@@ -86,6 +86,50 @@ To get started, click [here](https://www.blockspaces.com/) and leave an email ad
 
 [GetBlock developer](https://getblock.io/en/nodes/optimism/) tools and valuable insights guarantee a simple and reliable API access to multiple blockchains.
 
+## NodeReal
+
+### Description and pricing
+
+[NodeReal](https://nodereal.io/) is a one-stop blockchain infrastructure and services provider, we provide scalable, reliable, and efficient blockchain solutions for everyone, aiming to support the massive adoption, growth, and long-term success of the Web3 ecosystem. You can connect to the OP Mainnet MegaNode for free every month. Details are [here](https://nodereal.io/pricing)
+
+[Sign up for your free account here](https://nodereal.io/meganode).
+
+### Supported Networks
+
+*   OP Mainnet
+
+## NOWNodes
+
+### Description and pricing
+
+[NOWNodes](https://nownodes.io/nodes/optimism) provide access to an OP Mainnet node. Shared and Dedicated nodes are Available. You can connect to the shared OP Mainnet node for free for one month with 5,000 requests/per day or for €20 with 1,000,000 requests/per month.
+
+The URL format is `https://optimism.nownodes.io/?API_key=<API key from NOWNodes`.
+
+### Supported Networks
+
+*   OP Mainnet
+
+## OnFinality
+
+### Description and pricing
+
+[OnFinality](https://onfinality.io/) is a blockchain infrastructure platform that saves Web3 builders time and makes their lives easier. OnFinality delivers scalable API endpoints for the biggest blockchain networks and empowers developers to automatically test, deploy, scale and monitor their own blockchain nodes in minutes. OnFinality offers free and premium (Pay-as-you-go or subscription-based) API [services for OP Mainnet](https://onfinality.io/networks/optimism).
+
+### Supported Networks
+
+*   OP Mainnet
+
+## Pocket Network
+
+### Description and pricing
+
+[Pocket](https://www.pokt.network/) offers access to a highly-available dedicated pool of OP Mainnet nodes coordinated autonomously by the Pocket Network protocol. Through the Pocket Portal, developers may mint OP Mainnet RPC endpoints with a generous free tier of 1M requests per day (per endpoint, max 2 per account).
+
+### Supported Networks
+
+*   OP Mainnet
+
 ### Supported Networks
 
 *   OP Mainnet
