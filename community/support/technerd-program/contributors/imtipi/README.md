@@ -4,6 +4,6 @@ I am TP, I am continuing to contribute to the Optimism ecosystem as I have for t
 
 - timezone: UTC+8
 - github: https://github.com/imtipi
-- discord: LmRpc2NvcmQgaWQ6dDFwMQ==
+- discord: t1p1
 - farcaster: 
 - additional socials:
