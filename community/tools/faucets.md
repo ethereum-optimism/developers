@@ -6,3 +6,6 @@ Checkout the faucets that our community is using or has built! Please open a pul
 
 This is a developer tool that allows you to claim free testnet Ether (ETH) to test apps on testnet OP Chains like OP Sepolia, Base Sepolia, Lyra Sepolia, Mode Sepolia, PGN Sepolia, Zora Sepolia, & more. 
 
+## [Ethereum Ecosystem Faucets](https://www.ethereum-ecosystem.com/faucets)
+
+Free & Easy to use testnet faucets for Ethereum, Base and Optimism Sepolia with very generous drips. These PoW faucets dispense free testnet ETH to users who complete computational tasks, deterring abuse from bots and ensuring equitable resource distribution.
