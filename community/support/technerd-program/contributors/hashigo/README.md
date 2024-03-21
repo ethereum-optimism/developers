@@ -6,4 +6,4 @@ Hi, my name is hashigo. I am involved in the world of crypto as a hobby and issu
 - github: https://github.com/hash1go
 - discord: hashigo
 - farcaster: https://warpcast.com/hashigo.eth
-- X: https://twitter.com/hash1go_
+- X: [https://twitter.com/hash1go_](https://twitter.com/hash1go_)
