@@ -146,3 +146,12 @@ The URL format is `https://optimism.nownodes.io/?API_key=<API key from NOWNodes`
 *   OP Mainnet
 *   OP Sepolia
 
+## Tatum
+
+[Tatum](https://tatum.io/nodes) provides access to OP mainnet and testnet nodes directly. Reliability and speed is essential to blockchain applications. This is what you get with Tatum RPC nodes.
+
+### Supported Networks
+
+- OP Mainnet
+- OP Testnet
+
