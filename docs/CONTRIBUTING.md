@@ -40,10 +40,10 @@ Feel free to carve out your own directory in the community tutorials section. Pl
   # <Product or service name>
   maintainer(s): @github-username
   ```
-- The maintainer is the user(s) that is responsible for maintaining the content. If there is more than one maintainer, please create a comma seperated list.
+- The maintainer is the user(s) that is responsible for maintaining the content. If there is more than one maintainer, please create a comma separated list.
 - Create tutorial files in your directory.
 
-Its recommended to have your first tutorial be a quickstart, with step-by-step "learn by doing" instructions.
+It's recommended to have your first tutorial be a quickstart, with step-by-step "learn by doing" instructions.
 
 ### Issues
 
@@ -60,5 +60,5 @@ If you feel that the issue doesn't belong in one of these repositories, please o
 
 #### Solve an issue
 
-Scan through our existing issues in any of the repositories listed above to find one that interests you. You can narroew down the search using `labels`. If you find an issue to work on, you can signal your interest, and consult the local `CONTRIBUTING` document to open a PR with a fix.
+Scan through our existing issues in any of the repositories listed above to find one that interests you. You can narrow down the search using `labels`. If you find an issue to work on, you can signal your interest, and consult the local `CONTRIBUTING` document to open a PR with a fix.
 
