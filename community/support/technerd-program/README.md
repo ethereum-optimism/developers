@@ -17,7 +17,7 @@ To start tracking your contributions:
    1. Anyone who assisted with resolution
 1. The steward will review and validate the PRs and keep track of overall contribution scores.
 
-### Effort Classifciation
+### Effort Classification
 
 |    Size      | Points | Description                                                                                                                                                                                                                 |
 |--------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
