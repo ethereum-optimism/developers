@@ -6,7 +6,7 @@ Checkout the oracles that our community is using or has built! Please open a pul
 
 [Supra](https://supraoracles.com/) is a novel, high-throughput Oracle & IntraLayer: A vertically integrated toolkit of cross-chain solutions (data oracles, asset bridges, automation network, and more) that interlink all blockchains, public (L1s and L2s) or private (enterprises).
 
-Supra provides decentralized oracle price feeds that can be used for on-chain and off-chain use-cases such as spot and perpetual DEXes, lending protocols, and payments protocols. Supra's oracle chain and consensus algorithm makes it the fastest-to-finality oracle provider, with layer-1 security guarantees. The pull oracle has a sub-second response time. Aside from speed and security, Supra's rotating node architecture gathers data from 40+ data sources and applies a robust calculation methodology to get the most accurate value. The node provenance on the data dashboard also provides a fully transparent historical audit trail. Supra's Distributed Oracle Agreement (DORA) paper was accepted into ICDCS 2023, oldest distributed systems conference.
+Supra provides decentralized oracle price feeds that can be used for on-chain and off-chain use-cases such as spot and perpetual DEXes, lending protocols, and payments protocols. Supra's oracle chain and consensus algorithm make it the fastest-to-finality oracle provider, with layer-1 security guarantees. The pull oracle has a sub-second response time. Aside from speed and security, Supra's rotating node architecture gathers data from 40+ data sources and applies a robust calculation methodology to get the most accurate value. The node provenance on the data dashboard also provides a fully transparent historical audit trail. Supra's Distributed Oracle Agreement (DORA) paper was accepted into ICDCS 2023, oldest distributed systems conference.
 
 Check out our developer docs [here](https://supraoracles.com/docs/overview/).
 
@@ -18,7 +18,7 @@ The Tellor protocol can secure putting any verifiable data onchain, from spot pr
 
 As described in the oracles overview section of this page, we are an oracle protocol that has "a mechanism to reward entities that provide accurate information and penalize those that provide incorrect information." Therefore it is necessary to allow some reasonable [amount of time](https://docs.tellor.io/tellor/getting-data/solidity-integration#reading-data) between an oracle update and using that data, to allow for a potential dispute (probabilistic finality).
 
-Tellor is a pull oracle where users fund (tip) a specific feed to get updated data reports and then read the data from our oracle contract, however under certain circumstances it can act similar to a push oracle; if your reading from a feed that is already being updated by others, or if you are [running your own data reporter.](https://docs.tellor.io/tellor/reporting-data/introduction)
+Tellor is a pull oracle where users fund (tip) a specific feed to get updated data reports and then read the data from our oracle contract, however under certain circumstances it can act similar to a push oracle; if you are reading from a feed that is already being updated by others, or if you are [running your own data reporter.](https://docs.tellor.io/tellor/reporting-data/introduction)
 
 To learn more about using tellor please [read our docs](https://docs.tellor.io) or [get in touch](https://github.com/ethereum-optimism/developers/discussions).
 
@@ -42,12 +42,12 @@ Those that proposed the wrong answer lose their stake.
 
 [See here for the UMA addresses on OP Mainnet](https://github.com/UMAprotocol/protocol/blob/master/packages/core/networks/10.json).
 
-[See here for instructions how to use UMA](https://docs.umaproject.org/build-walkthrough/build-process).
+[See here for instructions on how to use UMA](https://docs.umaproject.org/build-walkthrough/build-process).
 
 UMA is a pull Oracle, it does not get information until it is requested by a contract.
 This means that a decentralized application needs to issue two transactions.
 First, a transaction that causes a contract on the blockchain to ask for the information.
-Later (in the case of UMA 48 hours later if there is no dispute, longer if there is), a second transaction need to be triggered to cause the contract to read from the Oracle and see the response to the request.
+Later (in the case of UMA 48 hours later if there is no dispute, longer if there is), a second transaction needs to be triggered to cause the contract to read from the Oracle and see the response to the request.
 
 ## Uniswap
 

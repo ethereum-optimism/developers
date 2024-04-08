@@ -30,6 +30,6 @@ OKLink also supports:
 * [Verified contract](https://www.oklink.com/optimism/verify-contract-preliminary): verify source code, along with the ability to interact with it
 * [Rich List](https://www.oklink.com/optimism/rich-list) : you can check the Top 100 holders and token distribution
 * [Data streaming](https://www.oklink.com/broadcasting/optimism): instant access to a comprehensive and real-time stream of on-chain data including large transactions and significant fund movements. OKLink is here to help you unlock the full potential of market insights.
-* [Token approval cheacker](https://www.oklink.com/optimism/approval/0xcb7477d515bb405762922976bb93421246dd993a): you can view the tokens and projects approved by the address and revoke them.
+* [Token approval checker](https://www.oklink.com/optimism/approval/0xcb7477d515bb405762922976bb93421246dd993a): you can view the tokens and projects approved by the address and revoke them.
 * [Historical balance checker](https://www.oklink.com/optimism/historical-balance-check): easily track historical token balances for informed decision-making
 * And more! Just [check it out](https://www.oklink.com/optimism) and click around to find all of the available features.
