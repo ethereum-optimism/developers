@@ -7,9 +7,9 @@ The following is high level areas that we'll want to include in the training.
 - Different components and how they fit together (op-node, batcher, sequencer, proposer, op-geth)
 - Difference between a node and a chain
 
-## How to run a OP Node
+## How to run an OP Node
 
-- Differences between a OP Mainnet and other networks (migrated network vs non-migrated network)
+- Differences between an OP Mainnet and other networks (migrated network vs non-migrated network)
 - Familiarizing yourself with the RPC
 - How to get metrics on your node
 - What metrics to monitor

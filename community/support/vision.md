@@ -4,7 +4,7 @@ The following document is an ideal state for community technical support to be i
 
 ## Responses
 
-Developers should receive immediate quality responses from members of the TechNERD program. If the first responder doesn't have the answers immediately, they should be able to provide a relevant and supporting resources to the requester. If those resources do not exist, it should be noted, and they should be created.
+Developers should receive immediate quality responses from members of the TechNERD program. If the first responder doesn't have the answers immediately, they should be able to provide relevant and supporting resources to the requester. If those resources do not exist, it should be noted, and they should be created.
 
 ## Resolution
 
@@ -12,7 +12,7 @@ Developers who make responses should be supported continuously until their reque
 
 ## TechNERD Program
 
-The program should be structured in a way where wannabe TechNERDs can complete training asyncronously, prove they've done so onchain, and start supporting our technical community. When the next season of governance starts, new applicants should have onchain proof they've completed the training and evidence that they've already begun contributing to the community.
+The program should be structured in a way where wannabe TechNERDs can complete training asynchronously, prove they've done so onchain, and start supporting our technical community. When the next season of governance starts, new applicants should have onchain proof they've completed the training and evidence that they've already begun contributing to the community.
 
 ## Processes
 

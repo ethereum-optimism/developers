@@ -1,6 +1,6 @@
 # Developer Community Resources
 
-This directory contains developer resources that the OP Stack developer community use and create. 
+This directory contains developer resources that the OP Stack developer community uses and creates. 
 
 Contributions to this directory can be made by anyone. They just need to follow these guidelines:
 
@@ -17,13 +17,13 @@ The purpose of this directory is to **serve developers on the OP Stack**. It's _
 Contributions to this directory are intended to support the developers building on any layer of the OP Stack. Unrelated PRs will be closed with the following message:
 
 > Thank you for your submission to our community resources. After consideration, we regret to inform you that we are unable to include your content at this time.
-> It appears that the submitted content is not directly related to development on the OP Stack. As such, we must prioritize resources that are more aligned with our community's needs and interestes.
+> It appears that the submitted content is not directly related to development on the OP Stack. As such, we must prioritize resources that are more aligned with our community's needs and interests.
 > Thank you for understanding.
 
 ### Maintenance
 
-OP Labs cannot commit to maintaing third-party resources. We'll leave it up to the authors and community to maintain these resources.
+OP Labs cannot commit to maintaining third-party resources. We'll leave it up to the authors and community to maintain these resources.
 
 ### Contributing
 
-Please consult the instructions in our [CONTRIBUTING](../docs/CONTRIBUTING.md) document before openning a PR.
+Please consult the instructions in our [CONTRIBUTING](../docs/CONTRIBUTING.md) document before opening a PR.

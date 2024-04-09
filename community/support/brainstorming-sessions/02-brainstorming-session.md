@@ -10,10 +10,10 @@ This session is to determine what contributions will be tracked in the TechNERD 
 
 ## Agenda
 
-- Introduction / Purpose / Attendence (~5m)
+- Introduction / Purpose / Attendance (~5m)
 - Explain the t-shirt sizing process proposal (~15m)
 - Collect feedback and suggestions (~15m)
-- Concolude (~5m)
+- Conclude (~5m)
 
 ### Proposal
 

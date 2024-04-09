@@ -2,11 +2,11 @@
 
 Our strategic plans are defined by objectives, goals, non-goals, success criteria, implementation plans, and owners.
 
-- The **objective** should be a specific outcome that we want to achieve. These should be high-level but not too fluggy.
-- Each objective should have a number of **goals**, and each goal should have **success criteria**, **impilementation plans**, and (where appropriate) **owners**.
-- The **success criteria** should be a set of measureable assessment methods. We should be able to look at the criteria and definitively know whether it was achieved.
+- The **objective** should be a specific outcome that we want to achieve. These should be high-level but not too fuzzy.
+- Each objective should have a number of **goals**, and each goal should have **success criteria**, **implementation plans**, and (where appropriate) **owners**.
+- The **success criteria** should be a set of measurable assessment methods. We should be able to look at the criteria and definitively know whether it was achieved.
 - The **implementation plan** is a set of reasonably granular steps that indicate how you can achieve the goal.
-- In some cases, it makes sense to assign an **owner** to a goal, even if the owner merely has oveersight in getting it done.
+- In some cases, it makes sense to assign an **owner** to a goal, even if the owner merely has oversight in getting it done.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Our strategic plans are defined by objectives, goals, non-goals, success criteri
       - [Goal: Create a welcoming community](#goal-create-a-welcoming-community)
       - [Goal: Fast response times](#goal-fast-response-times)
       - [Goal: Use the correct communication channels](#goal-use-the-correct-communication-channels)
-    - [Objective: Maintain our technical documenation and resources](#objective-maintain-our-technical-documenation-and-resources)
+    - [Objective: Maintain our technical documentation and resources](#objective-maintain-our-technical-documentation-and-resources)
       - [Goal: Turn support requests into reusable documentation](#goal-turn-support-requests-into-reusable-documentation)
     - [Objective: Track contributions and impact](#objective-track-contributions-and-impact)
       - [Goal: Track individuals' contributions](#goal-track-individuals-contributions)
@@ -95,7 +95,7 @@ Non-goals:
 
 - Using the wrong category in the forum
 - Using discord when the developer forum is a better channel
-- Using the developr forum when discord is a better channel
+- Using the developer forum when discord is a better channel
 
 Success Criteria:
 
@@ -105,7 +105,7 @@ Implementation Plan:
 
 - todo
 
-### Objective: Maintain our technical documenation and resources
+### Objective: Maintain our technical documentation and resources
 
 #### Goal: Turn support requests into reusable documentation
 
@@ -123,7 +123,7 @@ Implementation Plan:
 - Monitor the types of questions that are coming in
 - Identify repeated questions or common themes
 - Take the resolved request and create an issue describing how the documentation can be improved to address these problems. Include links to requests as examples
-- Bonus: make a PR to update the documetnation
+- Bonus: make a PR to update the documentation
 
 Owner: soyboy
 
@@ -140,10 +140,10 @@ Success Criteria:
 - On a weekly basis, we're tracking and recording the contributions you've made that week
 - These metrics are used for RPGF applications
 
-Implementation Plan: (needs workshoping)
+Implementation Plan: (needs workshopping)
 
 - Track your individual contributions
-- Make a PR with your contributions follow TBD format
+- Make a PR with your contributions following TBD format
 - TechNERD steward reviews contributions and makes update requests if necessary
 - Contributions merged into repository
 
