@@ -53,7 +53,7 @@ We've identified:
 
 - Currently we're using Discord for IM and the developer forum for developer support questions. I'm weary of expanding it further than that at moment, but open to it if it addresses a need.
 - Collaborating with the core engineers requires a healthy balance because of their focus on developing the core software. However, we can improve on just having soyboy as the relayer of these questions.
-- Some of these commuication channels exists others do not. We can do better on building them out and making them more visible.
+- Some of these communication channels exist others do not. We can do better on building them out and making them more visible.
   
 ### Providing more support
 
