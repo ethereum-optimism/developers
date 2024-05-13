@@ -15,7 +15,7 @@ This session is to understand what training materials would be useful for the Te
 
 ## Agenda
 
-- Introduction / Purpose / Attendence (~5m)
+- Introduction / Purpose / Attendance (~5m)
 - Review our current resources (~15m)
 - Gather gaps in our knowledge (~15m)
 - Training and development we want (~15m)
@@ -73,7 +73,7 @@ The following are thoughts on how we can improve from the first round training p
 - A layered training approach
   - High level tools to deploy things
   - Sequential tutorial excluding customization and let them deploy things without using high-level tools
-  - Provide cusomization document
+  - Provide customization document
   - Scenario to solve as an exam
  - Technical workshop beside each topic to deeply understand the fundamentals and how to solve some common issues
- - Training FAQ with perviouisly closed tickets as teaching materials
+ - Training FAQ with previously closed tickets as teaching materials
