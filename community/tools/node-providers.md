@@ -1,6 +1,8 @@
 # Node Providers
 
-Checkout the node and API providers that our community is using or has built! Please open a pull request if you'd like a project to be added to this list (guidance: succinct overview of the project / solution highlighting main features, include OP Mainnet / Testnet link or relevant documentation -- character count limit: 500). 
+Checkout the node and API providers that our community is using or has built! 
+
+> Please open a pull request if you'd like a project to be added to this list (guidance: succinct overview of the project / solution highlighting main features, include OP Mainnet / Testnet link or relevant documentation -- character count limit: 500). 
 
 ## DRPC
 
