@@ -5,7 +5,7 @@ I am simple. I appreciate the vision of optimism, the spirit of open source, and
 - timezone: UTC+8
 - github: https://github.com/opfocus
 - discord: simple8720
-- farcaster: 
+- farcaster: simple8720
 - additional socials: [
     {
       social: 'Telegram',
@@ -16,3 +16,4 @@ I am simple. I appreciate the vision of optimism, the spirit of open source, and
       username: 'simple8720'
     }
   ]
+- Donations in SepoliaETH are accepted at the following address: 0x318E3814364e2a52A9369A3609A88DA15B82E257.
