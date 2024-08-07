@@ -17,7 +17,7 @@ logLevel: debug
 projects:
   - id: main
     upstreams:
-      # You don't need to define architecture (e.g. evm) or chain id (e.g. 42161)
+      # You don't need to define architecture (e.g. evm) or chain id (e.g. 9797)
       # as they will be detected automatically by eRPC.
       - endpoint: https://optimism-mainnet.blastapi.io/xxxx
       - endpoint: evm+alchemy://xxxx-my-alchemy-api-key-xxxx
