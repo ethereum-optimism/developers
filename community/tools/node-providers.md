@@ -1,12 +1,12 @@
 # Node Providers
 
-Checkout the node and API providers that our community is using or has built!
+Checkout the node and API providers that our community is using or has built! 
 
-> Please open a pull request if you'd like a project to be added to this list (guidance: succinct overview of the project / solution highlighting main features, include OP Mainnet / Testnet link or relevant documentation -- character count limit: 500).
+> Please open a pull request if you'd like a project to be added to this list (guidance: succinct overview of the project / solution highlighting main features, include OP Mainnet / Testnet link or relevant documentation -- character count limit: 500). 
 
 ## DRPC
 
-[DRPC](https://drpc.org/) provides auto-scalable OP Mainnet (Full & Archive) nodes, as well as OP Goerli and RPCs for 24+ other chains. DRPC supports Websocket and all methods, including debug and trace methods. For early-stage startups, DRPC, together with Optimism Collective, provides OP Archive nodes from 3 geo clusters without methods restrictions and totally free! For commercial nodes, DRPC uses a pay-as-you-go model with payments per [CU - Compute units](https://docs.drpc.org/pricing/compute-units).
+[DRPC](https://drpc.org/) provides auto-scalable OP Mainnet (Full & Archive) nodes, as well as OP Goerli and RPCs for 24+ other chains. DRPC supports Websocket and all methods, including debug and trace methods. For early-stage startups, DRPC, together with Optimism Collective, provides OP Archive nodes from 3 geo clusters without methods restrictions and totally free! For commercial nodes, DRPC uses a pay-as-you-go model with payments per [CU - Compute units](https://docs.drpc.org/pricing/compute-units). 
 Feel free to try [fast and reliable nodes](https://drpc.org/public-endpoints/optimism)
 
 ### Supported Networks
@@ -32,7 +32,7 @@ Moreover, 4EVERLAND registered users will receive a complimentary resource packa
 
 ### Supported Networks
 
-- OP Mainnet
+*   OP Mainnet
 
 ## Blast
 
@@ -43,7 +43,7 @@ On the platform, there are also [Public APIs](https://blastapi.io/public-api/opt
 
 ### Supported Networks
 
-- OP Mainnet
+*   OP Mainnet
 
 ## Blockpi
 
@@ -54,8 +54,8 @@ Register at [dashboard](https://dashboard.blockpi.io/) and get Free 100M RU ever
 
 ### Supported Networks
 
-- OP Mainnet
-- OP Sepolia
+*   OP Mainnet
+*   OP Sepolia
 
 ## BlockSpaces
 
@@ -64,7 +64,7 @@ To get started, click [here](https://www.blockspaces.com/) and leave an email ad
 
 ### Supported Networks
 
-- OP Mainnet
+*   OP Mainnet
 
 ## BlockVision
 
@@ -72,7 +72,7 @@ To get started, click [here](https://www.blockspaces.com/) and leave an email ad
 
 ### Supported Networks
 
-- OP Mainnet
+*   OP Mainnet
 
 ## Chainnodes
 
@@ -82,7 +82,7 @@ To get started, click [here](https://www.blockspaces.com/) and leave an email ad
 
 ### Supported Networks
 
-- OP Mainnet
+*   OP Mainnet
 
 ## GetBlock
 
@@ -90,8 +90,8 @@ To get started, click [here](https://www.blockspaces.com/) and leave an email ad
 
 ### Supported Networks
 
-- OP Mainnet
-- OP Sepolia
+*   OP Mainnet
+*   OP Sepolia
 
 ## NodeReal
 
@@ -103,7 +103,7 @@ To get started, click [here](https://www.blockspaces.com/) and leave an email ad
 
 ### Supported Networks
 
-- OP Mainnet
+*   OP Mainnet
 
 ## NOWNodes
 
@@ -115,7 +115,7 @@ The URL format is `https://optimism.nownodes.io/?API_key=<API key from NOWNodes`
 
 ### Supported Networks
 
-- OP Mainnet
+*   OP Mainnet
 
 ## OnFinality
 
@@ -125,7 +125,7 @@ The URL format is `https://optimism.nownodes.io/?API_key=<API key from NOWNodes`
 
 ### Supported Networks
 
-- OP Mainnet
+*   OP Mainnet
 
 ## Pocket Network
 
@@ -135,7 +135,7 @@ The URL format is `https://optimism.nownodes.io/?API_key=<API key from NOWNodes`
 
 ### Supported Networks
 
-- OP Mainnet
+*   OP Mainnet
 
 ## Stackup
 
@@ -145,8 +145,8 @@ The URL format is `https://optimism.nownodes.io/?API_key=<API key from NOWNodes`
 
 ### Supported Networks
 
-- OP Mainnet
-- OP Sepolia
+*   OP Mainnet
+*   OP Sepolia
 
 ## Tatum
 
