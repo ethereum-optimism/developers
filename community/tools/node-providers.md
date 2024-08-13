@@ -157,3 +157,11 @@ The URL format is `https://optimism.nownodes.io/?API_key=<API key from NOWNodes`
 - OP Mainnet
 - OP Testnet
 
+## eRPC
+
+[eRPC](https://github.com/erpc/erpc) is a fault-tolerant EVM RPC proxy and re-org aware permanent caching solution. It is built with read-heavy use-cases in mind such as data indexing and high-load frontend usage.
+
+### Supported Networks
+
+- OP Mainnet
+- OP Sepolia
