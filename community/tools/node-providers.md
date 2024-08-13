@@ -164,4 +164,4 @@ The URL format is `https://optimism.nownodes.io/?API_key=<API key from NOWNodes`
 ### Supported Networks
 
 - OP Mainnet
-- OP Testnet
+- OP Sepolia
