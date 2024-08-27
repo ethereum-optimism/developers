@@ -20,7 +20,7 @@ Answering questions, writing/improving documentation, troubleshooting, and devel
 
 ### Skills Required
 
-Understanding of blockchain fundamentals, technical troubleshooting, documentation, testing, quality assurance, and software development.
+Understanding of blockchain fundamentals, technical troubleshooting, documentation, testing, open & clear communication, and software development.
 
 ## Acknowledgements
 
