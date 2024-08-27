@@ -8,7 +8,7 @@ Our mission is to empower developers with an exceptional support ecosystem for t
 
 ### Mission
 
-To provide an incredible developer experience when building, running, and deploying on the OP Stack.
+To provide an incredible developer experience when building, deploying, and running the OP Stack.
 
 ### Opportunities
 
