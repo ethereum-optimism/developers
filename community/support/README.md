@@ -12,7 +12,7 @@ To provide an incredible developer experience when building, deploying, and runn
 
 ### Opportunities
 
-Easing the development experience on decentralized block space, making the OP Stack the most forked and hacked L2 blockchain, and providing a best in class node operator experience.
+Easing the experience for running the OP Stack and providing a support and solutions for these operators.
 
 ### Areas of Collaboration
 
