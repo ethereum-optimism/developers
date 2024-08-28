@@ -8,11 +8,11 @@ Our mission is to empower developers with an exceptional support ecosystem for t
 
 ### Mission
 
-To provide an incredible developer experience when building, running, and deploying on the OP Stack.
+To provide an incredible developer experience when building, deploying, and running the OP Stack.
 
 ### Opportunities
 
-Easing the development experience on decentralized block space, making the OP Stack the most forked and hacked L2 blockchain, and providing a best in class node operator experience.
+Easing the experience for running the OP Stack and providing a support and solutions for these operators.
 
 ### Areas of Collaboration
 
@@ -20,7 +20,7 @@ Answering questions, writing/improving documentation, troubleshooting, and devel
 
 ### Skills Required
 
-Understanding of blockchain fundamentals, technical troubleshooting, documentation, testing, quality assurance, and software development.
+Understanding of blockchain fundamentals, technical troubleshooting, documentation, testing, open & clear communication, and software development.
 
 ## Acknowledgements
 
