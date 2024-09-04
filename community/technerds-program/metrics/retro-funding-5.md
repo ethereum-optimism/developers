@@ -39,13 +39,14 @@ Here's a list of the relevant Discord channels and their descriptions:
 3. #dev-help: A support channel where developers can ask for help with their general development issues and receive assistance from the community.
 
 
-| TechNERD   | #builder-general | #op-stack-chains | #dev-help | Total |
-|------------|------------------|------------------|-----------|-------|
-| hashigo    | 213              | 42               | 4         | 259   |
-| chomtana   | 11               | 5                | 10        | 26    |
-| simple8720 | 526              | 461              | 375       | 1362  |
-| t1p1       | 208              | 233              | 56        | 497   |
-| joohhnnn8  | 7                | 0                | 2         | 9     |
+| TechNERD   | #builder-general | #op-stack-chains | #dev-help | Total    |
+|------------|------------------|------------------|-----------|----------|
+| hashigo    | 213              | 42               | 4         | 259      |
+| chomtana   | 11               | 5                | 10        | 26       |
+| simple8720 | 526              | 461              | 375       | 1362     |
+| t1p1       | 208              | 233              | 56        | 497      |
+| joohhnnn8  | 7                | 0                | 2         | 9        |
+| **Total**  | **965**          | **741**          | **447**   | **2153** |
 
 ## Verification of Discord Messages
 
