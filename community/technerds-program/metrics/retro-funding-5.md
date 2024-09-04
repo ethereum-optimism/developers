@@ -1,5 +1,16 @@
 # TechNERDs Program Metrics - Retro Funding Round 5
 
+## Project Description and Impact
+
+This document quantifies the TechNERDs Program's impact on the OP Stack ecosystem from October 1, 2023, to July 31, 2024. During this period, TechNERDs:
+
+- Actively participated in key Discord channels (#builder-general, #op-stack-chains, #dev-help)
+- Contributed to technical discussions and provided developer support
+- Created documentation to enhance the OP Stack ecosystem
+- Answered questions on GitHub, creating reusable resources for the community
+
+The metrics below showcase individual TechNERD contributions, demonstrating their value to the OP Stack community during this timeframe.
+
 ## Messages across relevant discord channels
 
 Here's a list of the relevant Discord channels and their descriptions:
