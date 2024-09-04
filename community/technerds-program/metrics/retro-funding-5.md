@@ -11,6 +11,22 @@ This document quantifies the TechNERDs Program's impact on the OP Stack ecosyste
 
 The metrics below showcase individual TechNERD contributions, demonstrating their value to the OP Stack community during this timeframe.
 
+## Questions Answered
+
+This section summarizes the total number of questions answered by each TechNERD during the period from October 1, 2023, to July 31, 2024. The data is collected from their individual contribution files in the contributors subdirectory.
+
+| TechNERD   | Questions Answered |
+|------------|---------------------|
+| hashigo    | 77                  |
+| chomtana   | 65                  |
+| simple8720 | 125                 |
+| t1p1       | 105                 |
+| joohhnnn8  | 22                  |
+
+Important: It should be noted that not all contributions during this time period have been submitted yet. Therefore, the numbers presented here are likely an undercount of the actual total questions answered. The final tally may be higher once all contributions are fully accounted for.
+
+
+
 ## Messages across relevant discord channels
 
 Here's a list of the relevant Discord channels and their descriptions:
