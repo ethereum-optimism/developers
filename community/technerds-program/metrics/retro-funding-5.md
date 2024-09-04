@@ -19,10 +19,10 @@ This section summarizes the total number of questions answered by each TechNERD 
 |------------|---------------------|
 | hashigo    | 77                  |
 | chomtana   | 65                  |
-| simple8720 | 125                 |
+| simple8720 | 222                 |
 | t1p1       | 105                 |
 | joohhnnn8  | 22                  |
-| **Total**  | **394**             |
+| **Total**  | **491**             |
 
 Important: It should be noted that not all contributions during this time period have been submitted yet. Therefore, the numbers presented here are likely an undercount of the actual total questions answered. The final tally may be higher once all contributions are fully accounted for.
 
