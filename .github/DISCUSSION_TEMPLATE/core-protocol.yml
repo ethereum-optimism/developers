@@ -20,11 +20,16 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        **Was there anything unclear or missing?**
+        Please describe the information you were looking for and where you searched.
+
   - type: textarea
     id: unclear-info
     attributes:
       label: Was there anything unclear or missing?
-      description: Please describe the information you were looking for and where you searched.
 
   - type: checkboxes
     id: verify-check-discussions
@@ -36,21 +41,28 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        **Similar questions or issues found**
+        If yes, please provide links to similar questions or issues you found.
+
   - type: textarea
     id: duplicate-questions
     attributes:
       label: Similar questions or issues found
-      description: If yes, please provide links to similar questions or issues you found.
 
   - type: markdown
     attributes:
       value: |
         ## What Kind of Request Is This?
 
+        **Please select the type of request**
+
   - type: checkboxes
     id: request-type
     attributes:
-      label: Please select the type of request
+      label: Type of Request
       options:
         - label: "Bug Report"
         - label: "Feature Request"
@@ -62,27 +74,32 @@ body:
       value: |
         ## Issue Description
 
-  - type: markdown
-    attributes:
-      value: |
         ### For Bug Reports:
+
+        **Steps to Reproduce**
+        Please provide a detailed sequence of steps to reproduce the issue. Be as specific as possible to help us understand the scenario.
 
   - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to Reproduce
-      description: Please provide a detailed sequence of steps to reproduce the issue. Be as specific as possible to help us understand the scenario.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Expected vs. Actual Behaviour**
+        Describe what you expected to happen vs. what actually happened.
 
   - type: textarea
     id: expected-actual-behavior
     attributes:
       label: Expected vs. Actual Behaviour
-      description: Describe what you expected to happen vs. what actually happened.
 
   - type: markdown
     attributes:
       value: |
         **Environment Details**
+        Provide the following information about your setup:
 
   - type: textarea
     id: software-versions
@@ -102,48 +119,72 @@ body:
       label: Hardware Resources
       description: (Optional) Describe the hardware resources, infrastructure setup, or any other relevant settings.
 
+  - type: markdown
+    attributes:
+      value: |
+        **Configuration Files, Startup Flags & Environment Variables**
+        Please provide the configuration files, commands, and environment variables used.
+
   - type: textarea
     id: configuration-files
     attributes:
       label: Configuration Files, Startup Flags & Environment Variables
-      description: Please provide the configuration files, commands, and environment variables used.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Error Messages / Logs**
+        Provide any error messages or logs related to the issue. This will help us diagnose the problem faster.
 
   - type: textarea
     id: error-messages-logs
     attributes:
       label: Error Messages / Logs
-      description: Provide any error messages or logs related to the issue. This will help us diagnose the problem faster.
 
   - type: markdown
     attributes:
       value: |
         ### For Feature Requests:
 
+        **Feature Description**
+        Provide a clear description of the feature you would like to see implemented.
+
   - type: textarea
     id: feature-description
     attributes:
       label: Feature Description
-      description: Provide a clear description of the feature you would like to see implemented.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Purpose and Benefits**
+        Explain the purpose of this feature and how it would benefit users or improve the protocol.
 
   - type: textarea
     id: purpose-benefits
     attributes:
       label: Purpose and Benefits
-      description: Explain the purpose of this feature and how it would benefit users or improve the protocol.
+
+  - type: markdown
+    attributes:
+      value: |
+        **Relevant Context or Examples**
+        Include any relevant context, use cases, or examples that support your request.
 
   - type: textarea
     id: context-examples
     attributes:
       label: Relevant Context or Examples
-      description: Include any relevant context, use cases, or examples that support your request.
 
   - type: markdown
     attributes:
       value: |
         ## Additional Information
 
+        **Please provide any additional information that may help us answer your question.**
+        This could include previous troubleshooting steps you've taken, other resources you have consulted, etc.
+
   - type: textarea
     id: additional-information
     attributes:
       label: Additional Information
-      description: Please provide any additional information that may help us answer your question. This could include previous troubleshooting steps you've taken, other resources you have consulted, etc.
