@@ -133,9 +133,3 @@ body:
     attributes:
       label: "Relevant Context or Examples"
       description: "Include any relevant context, use cases, or examples that support your request."
-
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: "Additional Information"
-      description: "Please provide any additional information that may help us answer your question. This could include previous troubleshooting steps you've taken, other resources you have consulted, etc."
