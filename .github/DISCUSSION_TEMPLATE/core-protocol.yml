@@ -52,7 +52,7 @@ body:
   - type: checkboxes
     id: request-type
     attributes:
-      label: Please select the type of request:
+      label: Please select the type of request
       options:
         - label: "Bug Report"
         - label: "Feature Request"
