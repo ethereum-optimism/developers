@@ -10,10 +10,15 @@ body:
 
         ### Before proceeding, please check the [documentation](https://docs.optimism.io/) and the [specs](https://specs.optimism.io/).
 
-  - type: markdown
+  - type: checkboxes
+    id: verify-check-docs
     attributes:
-      value: |
-        #### Was there anything unclear or missing?
+      label: "Did you check the documentation and specs?"
+      description: "If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback)."
+      options:
+        - label: "Yes"
+    validations:
+      required: true
 
   - type: textarea
     id: unclear-info
@@ -30,11 +35,6 @@ body:
         - label: "Yes"
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        #### Similar Questions or Issues Found
 
   - type: textarea
     id: duplicate-questions
@@ -64,21 +64,11 @@ body:
 
         ### For Bug Reports:
 
-  - type: markdown
-    attributes:
-      value: |
-        #### Steps to Reproduce
-
   - type: textarea
     id: steps-to-reproduce
     attributes:
       label: "Steps to Reproduce"
       description: "Please provide a detailed sequence of steps to reproduce the issue. Be as specific as possible to help us understand the scenario."
-
-  - type: markdown
-    attributes:
-      value: |
-        #### Expected vs. Actual Behaviour
 
   - type: textarea
     id: expected-actual-behavior
@@ -109,21 +99,11 @@ body:
       label: "Hardware Resources"
       description: "(Optional) Describe the hardware resources, infrastructure setup, or any other relevant settings."
 
-  - type: markdown
-    attributes:
-      value: |
-        #### Configuration Files, Startup Flags & Environment Variables
-
   - type: textarea
     id: configuration-files
     attributes:
       label: "Configuration Files, Startup Flags & Environment Variables"
       description: "Please provide the configuration files, commands, and environment variables used."
-
-  - type: markdown
-    attributes:
-      value: |
-        #### Error Messages / Logs
 
   - type: textarea
     id: error-messages-logs
@@ -136,32 +116,17 @@ body:
       value: |
         ### For Feature Requests:
 
-  - type: markdown
-    attributes:
-      value: |
-        #### Feature Description
-
   - type: textarea
     id: feature-description
     attributes:
       label: "Feature Description"
       description: "Provide a clear description of the feature you would like to see implemented."
 
-  - type: markdown
-    attributes:
-      value: |
-        #### Purpose and Benefits
-
   - type: textarea
     id: purpose-benefits
     attributes:
       label: "Purpose and Benefits"
       description: "Explain the purpose of this feature and how it would benefit users or improve the protocol."
-
-  - type: markdown
-    attributes:
-      value: |
-        #### Relevant Context or Examples
 
   - type: textarea
     id: context-examples
@@ -174,11 +139,8 @@ body:
       value: |
         ## Additional Information
 
-        #### Please provide any additional information that may help us answer your question.
-        This could include previous troubleshooting steps you've taken, other resources you have consulted, etc.
-
   - type: textarea
     id: additional-information
     attributes:
       label: "Additional Information"
-      description: "Please provide any additional information that may help us answer your question."
+      description: "Please provide any additional information that may help us answer your question. This could include previous troubleshooting steps you've taken, other resources you have consulted, etc."
