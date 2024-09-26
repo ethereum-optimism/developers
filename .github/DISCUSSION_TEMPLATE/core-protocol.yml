@@ -4,13 +4,17 @@ body:
   - type: markdown
     attributes:
       value: |
+        # Core Protocol
+
+        **Use Case:** Use this template for inquiries related to the core protocol such as technical behaviour, specifications, or protocol-level interactions.
+
         ### **Before proceeding, please consult the following resources:**
 
-        **Did you check the [documentation](https://docs.optimism.io/) and the [specs](https://specs.optimism.io/)?**
   - type: checkboxes
     id: verify-check-docs
     attributes:
       label: Did you check the documentation and specs?
+      description: If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).
       options:
         - label: "Yes"
     validations:
@@ -22,16 +26,11 @@ body:
       label: Was there anything unclear or missing?
       description: Please describe the information you were looking for and where you searched.
 
-  - type: markdown
-    attributes:
-      value: |
-        **Did you check for duplicate questions?**
-
-        *Please check the [existing discussions](https://github.com/ethereum-optimism/developers/discussions) or issues first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions).*
   - type: checkboxes
     id: verify-check-discussions
     attributes:
       label: Did you check for duplicate questions?
+      description: Please check the existing [discussion](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions).
       options:
         - label: "Yes"
     validations:
@@ -46,16 +45,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### What Kind of Request Is This?
+        ## What Kind of Request Is This?
 
-        **Please select the type of request:**
   - type: checkboxes
     id: request-type
     attributes:
       label: Please select the type of request
       options:
-        - label: "**Bug Report**\n\n    *Please provide a detailed description of the bug, including steps to reproduce, expected vs. actual behavior, and relevant logs or error messages in the Issue Description section below.*"
-        - label: "**Feature Request**\n\n    *Please describe the feature you would like to see, its purpose, and how it would benefit users. Include any relevant context or examples in the Issue Description section below.*"
+        - label: "Bug Report"
+        - label: "Feature Request"
     validations:
       required: true
 
@@ -64,13 +62,13 @@ body:
       value: |
         ## Issue Description
 
-        ### **For Bug Reports:**
+  - type: markdown
+    attributes:
+      value: |
+        ### For Bug Reports:
 
-        **Steps to reproduce**
-
-        *Please provide a detailed sequence of steps to reproduce the issue.* 
-
-        *Be as specific as possible to help us understand the scenario:*
+        **Steps to Reproduce:**
+        Please provide a detailed sequence of steps to reproduce the issue. Be as specific as possible to help us understand the scenario.
 
   - type: textarea
     id: steps-to-reproduce
@@ -80,7 +78,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Expected vs. actual behaviour:**
+        **Expected vs. Actual Behaviour:**
+        Describe what you expected to happen vs. what actually happened.
 
   - type: textarea
     id: expected-actual-behavior
@@ -90,106 +89,91 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Environment Details**
-
-        *Provide the following information about your setup:*
+        **Environment Details:**
+        Provide the following information about your setup:
 
   - type: textarea
     id: software-versions
     attributes:
       label: Software Versions
-      description: Software Versions (op-contracts, op-node, op-geth, op-challenger, etc.)
+      description: List the software versions (op-contracts, op-node, op-geth, op-challenger, etc.).
 
   - type: textarea
     id: operating-system
     attributes:
       label: Operating System
-      description: Optional
+      description: (Optional) Specify the operating system used.
 
   - type: textarea
     id: hardware-resources
     attributes:
       label: Hardware Resources
-      description: Optional, infrastructure setup and ANY other relevant settings.
+      description: (Optional) Describe the hardware resources, infrastructure setup, or any other relevant settings.
 
   - type: markdown
     attributes:
       value: |
-        **Configuration files,** **Startup Flags & Environment Variables**
+        **Configuration Files, Startup Flags & Environment Variables:**
+        Please provide the configuration files, commands, and environment variables used.
 
   - type: textarea
     id: configuration-files
     attributes:
-      label: Configuration files, Startup Flags & Environment Variables
-      description: Please provide the config files, commands you used to start each OP Stack component and any environment variables you set.
+      label: Configuration Files, Startup Flags & Environment Variables
 
   - type: markdown
     attributes:
       value: |
-        **Error Messages / Logs**
+        **Error Messages / Logs:**
+        Provide any error messages or logs related to the issue. This will help us diagnose the problem faster.
 
   - type: textarea
     id: error-messages-logs
     attributes:
       label: Error Messages / Logs
-      description: Please paste any error messages or logs related to the issue. Providing logs will help us diagnose the problem faster.
 
   - type: markdown
     attributes:
       value: |
-        ### **For Feature Requests:**
+        ### For Feature Requests:
 
-        **Feature Description**
+        **Feature Description:**
+        Provide a clear description of the feature you would like to see implemented.
 
   - type: textarea
     id: feature-description
     attributes:
       label: Feature Description
-      description: Provide a clear description of the feature you would like to see implemented.
 
   - type: markdown
     attributes:
       value: |
-        **Purpose and Benefits**
+        **Purpose and Benefits:**
+        Explain the purpose of this feature and how it would benefit users or improve the protocol.
 
   - type: textarea
     id: purpose-benefits
     attributes:
       label: Purpose and Benefits
-      description: Explain the purpose of this feature and how it would benefit users or improve the protocol.
 
   - type: markdown
     attributes:
       value: |
-        **Relevant Context or Examples**
+        **Relevant Context or Examples:**
+        Include any relevant context, use cases, or examples that support your request.
 
   - type: textarea
     id: context-examples
     attributes:
       label: Relevant Context or Examples
-      description: Include any relevant context, use cases, or examples that support your request.
 
   - type: markdown
     attributes:
       value: |
-        ### Additional Information
+        ## Additional Information
 
   - type: textarea
     id: additional-information
     attributes:
       label: Additional Information
       description: Please provide any additional information that may help us answer your question. This could include previous troubleshooting steps you've taken, other resources you have consulted, etc.
-
-  - type: markdown
-    attributes:
-      value: |
-        ### General Feedback
-
-        **How can we improve?**
-
-        *If you have suggestions for improvement or other feedback, **please let us know [HERE](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).***
-  - type: textarea
-    id: feedback
-    attributes:
-      label: General Feedback
-      description: Please provide your feedback here.
