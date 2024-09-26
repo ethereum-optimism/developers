@@ -8,7 +8,7 @@ body:
 
         **Use Case:** Use this template for inquiries related to the core protocol such as technical behaviour, specifications, or protocol-level interactions.
 
-        ### **Before proceeding, please consult the following resources:**
+        ### **Before proceeding, please check the [documentation](https://docs.optimism.io/) and the [specs](https://specs.optimism.io/).**
 
   - type: checkboxes
     id: verify-check-docs
@@ -67,30 +67,22 @@ body:
       value: |
         ### For Bug Reports:
 
-        **Steps to Reproduce:**
-        Please provide a detailed sequence of steps to reproduce the issue. Be as specific as possible to help us understand the scenario.
-
   - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to Reproduce
-
-  - type: markdown
-    attributes:
-      value: |
-        **Expected vs. Actual Behaviour:**
-        Describe what you expected to happen vs. what actually happened.
+      description: Please provide a detailed sequence of steps to reproduce the issue. Be as specific as possible to help us understand the scenario.
 
   - type: textarea
     id: expected-actual-behavior
     attributes:
       label: Expected vs. Actual Behaviour
+      description: Describe what you expected to happen vs. what actually happened.
 
   - type: markdown
     attributes:
       value: |
-        **Environment Details:**
-        Provide the following information about your setup:
+        **Environment Details**
 
   - type: textarea
     id: software-versions
@@ -110,62 +102,40 @@ body:
       label: Hardware Resources
       description: (Optional) Describe the hardware resources, infrastructure setup, or any other relevant settings.
 
-  - type: markdown
-    attributes:
-      value: |
-        **Configuration Files, Startup Flags & Environment Variables:**
-        Please provide the configuration files, commands, and environment variables used.
-
   - type: textarea
     id: configuration-files
     attributes:
       label: Configuration Files, Startup Flags & Environment Variables
-
-  - type: markdown
-    attributes:
-      value: |
-        **Error Messages / Logs:**
-        Provide any error messages or logs related to the issue. This will help us diagnose the problem faster.
+      description: Please provide the configuration files, commands, and environment variables used.
 
   - type: textarea
     id: error-messages-logs
     attributes:
       label: Error Messages / Logs
+      description: Provide any error messages or logs related to the issue. This will help us diagnose the problem faster.
 
   - type: markdown
     attributes:
       value: |
         ### For Feature Requests:
 
-        **Feature Description:**
-        Provide a clear description of the feature you would like to see implemented.
-
   - type: textarea
     id: feature-description
     attributes:
       label: Feature Description
-
-  - type: markdown
-    attributes:
-      value: |
-        **Purpose and Benefits:**
-        Explain the purpose of this feature and how it would benefit users or improve the protocol.
+      description: Provide a clear description of the feature you would like to see implemented.
 
   - type: textarea
     id: purpose-benefits
     attributes:
       label: Purpose and Benefits
-
-  - type: markdown
-    attributes:
-      value: |
-        **Relevant Context or Examples:**
-        Include any relevant context, use cases, or examples that support your request.
+      description: Explain the purpose of this feature and how it would benefit users or improve the protocol.
 
   - type: textarea
     id: context-examples
     attributes:
       label: Relevant Context or Examples
+      description: Include any relevant context, use cases, or examples that support your request.
 
   - type: markdown
     attributes:
