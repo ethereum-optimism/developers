@@ -10,16 +10,6 @@ body:
 
         ### Before proceeding, please check the [documentation](https://docs.optimism.io/) and the [specs](https://specs.optimism.io/).
 
-  - type: checkboxes
-    id: verify-check-docs
-    attributes:
-      label: "Did you check the documentation and specs?"
-      description: "If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback)."
-      options:
-        - label: "Yes"
-    validations:
-      required: true
-
   - type: markdown
     attributes:
       value: |
@@ -29,7 +19,7 @@ body:
   - type: textarea
     id: unclear-info
     attributes:
-      label: Details
+      label: "Provide details"
 
   - type: checkboxes
     id: verify-check-discussions
@@ -50,7 +40,7 @@ body:
   - type: textarea
     id: duplicate-questions
     attributes:
-      label: Details
+      label: "Provide details"
 
   - type: markdown
     attributes:
@@ -83,7 +73,7 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Details
+      label: "Provide steps"
 
   - type: markdown
     attributes:
@@ -94,7 +84,7 @@ body:
   - type: textarea
     id: expected-actual-behavior
     attributes:
-      label: Details
+      label: "Provide details"
 
   - type: markdown
     attributes:
@@ -105,19 +95,19 @@ body:
   - type: textarea
     id: software-versions
     attributes:
-      label: Details
-      description: "Software Versions (op-contracts, op-node, op-geth, op-challenger, etc.)."
+      label: "Software Versions"
+      description: "List the software versions (op-contracts, op-node, op-geth, op-challenger, etc.)."
 
   - type: textarea
     id: operating-system
     attributes:
-      label: Details
+      label: "Operating System"
       description: "(Optional) Specify the operating system used."
 
   - type: textarea
     id: hardware-resources
     attributes:
-      label: Details
+      label: "Hardware Resources"
       description: "(Optional) Describe the hardware resources, infrastructure setup, or any other relevant settings."
 
   - type: markdown
@@ -129,7 +119,7 @@ body:
   - type: textarea
     id: configuration-files
     attributes:
-      label: Details
+      label: "Provide configuration details"
 
   - type: markdown
     attributes:
@@ -140,7 +130,7 @@ body:
   - type: textarea
     id: error-messages-logs
     attributes:
-      label: Details
+      label: "Provide error logs"
 
   - type: markdown
     attributes:
@@ -156,7 +146,7 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: Details
+      label: "Describe the feature"
 
   - type: markdown
     attributes:
@@ -167,7 +157,7 @@ body:
   - type: textarea
     id: purpose-benefits
     attributes:
-      label: Details
+      label: "Provide purpose and benefits"
 
   - type: markdown
     attributes:
@@ -178,7 +168,7 @@ body:
   - type: textarea
     id: context-examples
     attributes:
-      label: Details
+      label: "Provide context or examples"
 
   - type: markdown
     attributes:
@@ -191,4 +181,4 @@ body:
   - type: textarea
     id: additional-information
     attributes:
-      label: Details
+      label: "Additional information"
