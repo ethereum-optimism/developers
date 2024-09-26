@@ -90,13 +90,13 @@ body:
     id: operating-system
     attributes:
       label: "Operating System"
-      description: "(Optional) Specify the operating system used."
+      description: "Specify the operating system used."
 
   - type: textarea
     id: hardware-resources
     attributes:
       label: "Hardware Resources"
-      description: "(Optional) Describe the hardware resources, infrastructure setup, or any other relevant settings."
+      description: "Describe the hardware resources, infrastructure setup, or any other relevant settings."
 
   - type: textarea
     id: configuration-files
