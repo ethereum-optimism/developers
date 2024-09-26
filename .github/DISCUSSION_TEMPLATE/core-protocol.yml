@@ -4,42 +4,108 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Core Protocol Questions
+        # Core Protocol
+
+        **Use Case:** Use this template for inquiries related to the core protocol such as technical behaviour, specifications, or protocol-level interactions.
         
-        Before proceeding, please consult the following resources.
-  
+        ### **Before proceeding, please consult the following resources:**
+
   - type: checkboxes
     id: verify-check-docs
     attributes:
-      label: Did you check the documentation?
-      description: If our [documentation](https://docs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).
+      label: Did you check the documentation and specs?
+      description: If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).
       options:
         - label: "Yes"
           required: true
 
-  - type: checkboxes
-    id: verify-check-specs
+  - type: textarea
+    id: unclear-info
     attributes:
-      label: Did you read the specs?
-      description: The core protocol is covered in detail in the [specs](https://github.com/ethereum-optimism/optimism/tree/develop/specs).
-      options:
-        - label: "Yes"
-        - label: "No"
+      label: Was there anything unclear or missing?
+      description: Please describe the information you were looking for and where you searched.
+    validations:
+      required: false
 
   - type: checkboxes
     id: verify-check-discussions
     attributes:
       label: Did you check for duplicate questions?
-      description: Please check the existing [discussion](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions)
+      description: Please check the existing [discussion](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions).
       options:
         - label: "Yes"
           required: true
-          
+
+  - type: textarea
+    id: duplicate-questions
+    attributes:
+      label: Similar questions or issues found
+      description: If yes, please provide links to similar questions or issues you found.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ### What Kind of Request Is This?
+
+  - type: checkboxes
+    id: request-type
+    attributes:
+      label: Please select the type of request:
+      options:
+        - label: "Bug Report"
+        - label: "Feature Request"
+      validations:
+        required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Issue Description
+
   - type: textarea
     id: issue-description
     attributes:
       label: Issue Description
-      description: Please describe, in detail, the issue you are having.
+      description: |
+        **For Bug Reports:**
+
+        - **Steps to reproduce:** Please provide a detailed sequence of steps to reproduce the issue. Be as specific as possible to help us understand the scenario.
+        
+        *TEXTBOX*
+
+        - **Expected vs. actual behavior:**
+        
+        *TEXTBOX*
+
+        - **Environment Details:**
+        
+          - Software Versions (op-contracts, op-node, op-geth, op-challenger, etc.): *TEXTBOX*
+          - Operating System (optional): *TEXTBOX*
+          - Hardware resources (optional), infrastructure setup and ANY other relevant settings: *TEXTBOX*
+
+        - **Configuration files, Startup Flags & Environment Variables:**
+        
+        Please provide the config files, commands you used to start each OP Stack component and any environment variables you set: *TEXTBOX*
+
+        - **Error Messages / Logs:**
+        
+        Please paste any error messages or logs related to the issue. Providing logs will help us diagnose the problem faster: *TEXTBOX*
+
+        **For Feature Requests:**
+
+        - **Feature Description:**
+        
+        Provide a clear description of the feature you would like to see implemented: *TEXTBOX*
+
+        - **Purpose and Benefits:**
+        
+        Explain the purpose of this feature and how it would benefit users or improve the protocol: *TEXTBOX*
+
+        - **Relevant Context or Examples:**
+        
+        Include any relevant context, use cases, or examples that support your request: *TEXTBOX*
     validations:
       required: true
 
@@ -47,10 +113,14 @@ body:
     id: additional-information
     attributes:
       label: Additional Information
-      description: Please provide any additional information that may help us answer your question.
+      description: Please provide any additional information that may help us answer your question. This could include previous troubleshooting steps you've taken, other resources you have consulted, etc.
+    validations:
+      required: false
 
   - type: textarea
     id: feedback
     attributes:
-      label: Feedback
-      description: How can we improve? Are there documentation or resources that don't exist and would serve you better?
+      label: General Feedback
+      description: How can we improve? If you have suggestions for improvement or other feedback, please let us know [HERE](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).
+    validations:
+      required: false
