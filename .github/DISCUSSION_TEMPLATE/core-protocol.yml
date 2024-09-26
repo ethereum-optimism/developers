@@ -8,12 +8,11 @@ body:
 
         **Use Case:** Use this template for inquiries related to the core protocol such as technical behaviour, specifications, or protocol-level interactions.
 
-        ### Before proceeding, please check the [documentation](https://docs.optimism.io/) and the [specs](https://specs.optimism.io/).
 
   - type: checkboxes
     id: verify-check-docs
     attributes:
-      label: "Did you check the documentation and specs?"
+      label: "Before proceeding, please check the [documentation](https://docs.optimism.io/) and the [specs](https://specs.optimism.io/)."
       description: "If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback)."
       options:
         - label: "Yes"
