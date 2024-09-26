@@ -12,7 +12,7 @@ body:
   - type: checkboxes
     id: verify-check-docs
     attributes:
-      label: "Before proceeding, please check the [documentation](https://docs.optimism.io/) and the [specs](https://specs.optimism.io/)."
+      label: "Did you check the documentation and specs?"
       description: "If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback)."
       options:
         - label: "Yes"
