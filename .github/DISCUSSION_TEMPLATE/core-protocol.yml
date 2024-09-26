@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: unclear-info
     attributes:
-      label: Was there anything unclear or missing?
+      label: Details
 
   - type: checkboxes
     id: verify-check-discussions
@@ -44,25 +44,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Similar questions or issues found**
+        **Similar Questions or Issues Found**
         If yes, please provide links to similar questions or issues you found.
 
   - type: textarea
     id: duplicate-questions
     attributes:
-      label: Similar questions or issues found
+      label: Links to Similar Questions or Issues
 
   - type: markdown
     attributes:
       value: |
         ## What Kind of Request Is This?
 
-        **Please select the type of request**
-
   - type: checkboxes
     id: request-type
     attributes:
-      label: Type of Request
+      label: Please select the type of request
       options:
         - label: "Bug Report"
         - label: "Feature Request"
@@ -82,7 +80,7 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps to Reproduce
+      label: Details
 
   - type: markdown
     attributes:
@@ -93,7 +91,7 @@ body:
   - type: textarea
     id: expected-actual-behavior
     attributes:
-      label: Expected vs. Actual Behaviour
+      label: Details
 
   - type: markdown
     attributes:
@@ -128,7 +126,7 @@ body:
   - type: textarea
     id: configuration-files
     attributes:
-      label: Configuration Files, Startup Flags & Environment Variables
+      label: Details
 
   - type: markdown
     attributes:
@@ -139,7 +137,7 @@ body:
   - type: textarea
     id: error-messages-logs
     attributes:
-      label: Error Messages / Logs
+      label: Details
 
   - type: markdown
     attributes:
@@ -152,7 +150,7 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: Feature Description
+      label: Details
 
   - type: markdown
     attributes:
@@ -163,7 +161,7 @@ body:
   - type: textarea
     id: purpose-benefits
     attributes:
-      label: Purpose and Benefits
+      label: Details
 
   - type: markdown
     attributes:
@@ -174,7 +172,7 @@ body:
   - type: textarea
     id: context-examples
     attributes:
-      label: Relevant Context or Examples
+      label: Details
 
   - type: markdown
     attributes:
@@ -187,4 +185,4 @@ body:
   - type: textarea
     id: additional-information
     attributes:
-      label: Additional Information
+      label: Details
