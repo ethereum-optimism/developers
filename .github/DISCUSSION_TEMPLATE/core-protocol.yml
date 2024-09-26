@@ -134,11 +134,6 @@ body:
       label: "Relevant Context or Examples"
       description: "Include any relevant context, use cases, or examples that support your request."
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Additional Information
-
   - type: textarea
     id: additional-information
     attributes:
