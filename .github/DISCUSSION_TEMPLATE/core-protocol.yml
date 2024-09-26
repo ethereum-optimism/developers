@@ -14,12 +14,12 @@ body:
     attributes:
       value: |
         #### Was there anything unclear or missing?
-        Please describe the information you were looking for and where you searched.
 
   - type: textarea
     id: unclear-info
     attributes:
-      label: "Provide details"
+      label: "Was there anything unclear or missing?"
+      description: "Please describe the information you were looking for and where you searched."
 
   - type: checkboxes
     id: verify-check-discussions
@@ -35,12 +35,12 @@ body:
     attributes:
       value: |
         #### Similar Questions or Issues Found
-        If yes, please provide links to similar questions or issues you found.
 
   - type: textarea
     id: duplicate-questions
     attributes:
-      label: "Provide details"
+      label: "Similar Questions or Issues Found"
+      description: "If yes, please provide links to similar questions or issues you found."
 
   - type: markdown
     attributes:
@@ -68,29 +68,28 @@ body:
     attributes:
       value: |
         #### Steps to Reproduce
-        Please provide a detailed sequence of steps to reproduce the issue. Be as specific as possible to help us understand the scenario.
 
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: "Provide steps"
+      label: "Steps to Reproduce"
+      description: "Please provide a detailed sequence of steps to reproduce the issue. Be as specific as possible to help us understand the scenario."
 
   - type: markdown
     attributes:
       value: |
         #### Expected vs. Actual Behaviour
-        Describe what you expected to happen vs. what actually happened.
 
   - type: textarea
     id: expected-actual-behavior
     attributes:
-      label: "Provide details"
+      label: "Expected vs. Actual Behaviour"
+      description: "Describe what you expected to happen vs. what actually happened."
 
   - type: markdown
     attributes:
       value: |
         #### Environment Details
-        Provide the following information about your setup:
 
   - type: textarea
     id: software-versions
@@ -114,23 +113,23 @@ body:
     attributes:
       value: |
         #### Configuration Files, Startup Flags & Environment Variables
-        Please provide the configuration files, commands, and environment variables used.
 
   - type: textarea
     id: configuration-files
     attributes:
-      label: "Provide configuration details"
+      label: "Configuration Files, Startup Flags & Environment Variables"
+      description: "Please provide the configuration files, commands, and environment variables used."
 
   - type: markdown
     attributes:
       value: |
         #### Error Messages / Logs
-        Provide any error messages or logs related to the issue. This will help us diagnose the problem faster.
 
   - type: textarea
     id: error-messages-logs
     attributes:
-      label: "Provide error logs"
+      label: "Error Messages / Logs"
+      description: "Provide any error messages or logs related to the issue. This will help us diagnose the problem faster."
 
   - type: markdown
     attributes:
@@ -141,34 +140,34 @@ body:
     attributes:
       value: |
         #### Feature Description
-        Provide a clear description of the feature you would like to see implemented.
 
   - type: textarea
     id: feature-description
     attributes:
-      label: "Describe the feature"
+      label: "Feature Description"
+      description: "Provide a clear description of the feature you would like to see implemented."
 
   - type: markdown
     attributes:
       value: |
         #### Purpose and Benefits
-        Explain the purpose of this feature and how it would benefit users or improve the protocol.
 
   - type: textarea
     id: purpose-benefits
     attributes:
-      label: "Provide purpose and benefits"
+      label: "Purpose and Benefits"
+      description: "Explain the purpose of this feature and how it would benefit users or improve the protocol."
 
   - type: markdown
     attributes:
       value: |
         #### Relevant Context or Examples
-        Include any relevant context, use cases, or examples that support your request.
 
   - type: textarea
     id: context-examples
     attributes:
-      label: "Provide context or examples"
+      label: "Relevant Context or Examples"
+      description: "Include any relevant context, use cases, or examples that support your request."
 
   - type: markdown
     attributes:
@@ -181,4 +180,5 @@ body:
   - type: textarea
     id: additional-information
     attributes:
-      label: "Additional information"
+      label: "Additional Information"
+      description: "Please provide any additional information that may help us answer your question."
