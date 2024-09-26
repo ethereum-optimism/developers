@@ -13,7 +13,7 @@ body:
   - type: checkboxes
     id: verify-check-docs
     attributes:
-      label: Did you check the documentation and specs?
+      label: **Did you check the documentation and specs?**
       description: If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).
       options:
         - label: "Yes"
@@ -29,12 +29,12 @@ body:
   - type: textarea
     id: unclear-info
     attributes:
-      label: Details
+      label: details
 
   - type: checkboxes
     id: verify-check-discussions
     attributes:
-      label: Did you check for duplicate questions?
+      label: **Did you check for duplicate questions?**
       description: Please check the existing [discussion](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions).
       options:
         - label: "Yes"
@@ -50,7 +50,7 @@ body:
   - type: textarea
     id: duplicate-questions
     attributes:
-      label: Links to Similar Questions or Issues
+      label: details
 
   - type: markdown
     attributes:
@@ -60,7 +60,7 @@ body:
   - type: checkboxes
     id: request-type
     attributes:
-      label: Please select the type of request
+      label: **Please select the type of request**
       options:
         - label: "Bug Report"
         - label: "Feature Request"
@@ -80,7 +80,7 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Details
+      label: details
 
   - type: markdown
     attributes:
@@ -91,7 +91,7 @@ body:
   - type: textarea
     id: expected-actual-behavior
     attributes:
-      label: Details
+      label: details
 
   - type: markdown
     attributes:
@@ -102,19 +102,19 @@ body:
   - type: textarea
     id: software-versions
     attributes:
-      label: Software Versions
-      description: List the software versions (op-contracts, op-node, op-geth, op-challenger, etc.).
+      label: details
+      description: Software Versions (op-contracts, op-node, op-geth, op-challenger, etc.).
 
   - type: textarea
     id: operating-system
     attributes:
-      label: Operating System
+      label: details
       description: (Optional) Specify the operating system used.
 
   - type: textarea
     id: hardware-resources
     attributes:
-      label: Hardware Resources
+      label: details
       description: (Optional) Describe the hardware resources, infrastructure setup, or any other relevant settings.
 
   - type: markdown
@@ -126,7 +126,7 @@ body:
   - type: textarea
     id: configuration-files
     attributes:
-      label: Details
+      label: details
 
   - type: markdown
     attributes:
@@ -137,7 +137,7 @@ body:
   - type: textarea
     id: error-messages-logs
     attributes:
-      label: Details
+      label: details
 
   - type: markdown
     attributes:
@@ -150,7 +150,7 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: Details
+      label: details
 
   - type: markdown
     attributes:
@@ -161,7 +161,7 @@ body:
   - type: textarea
     id: purpose-benefits
     attributes:
-      label: Details
+      label: details
 
   - type: markdown
     attributes:
@@ -172,7 +172,7 @@ body:
   - type: textarea
     id: context-examples
     attributes:
-      label: Details
+      label: details
 
   - type: markdown
     attributes:
@@ -185,4 +185,4 @@ body:
   - type: textarea
     id: additional-information
     attributes:
-      label: Details
+      label: details
