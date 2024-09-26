@@ -13,8 +13,8 @@ body:
   - type: checkboxes
     id: verify-check-docs
     attributes:
-      label: **Did you check the documentation and specs?**
-      description: If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).
+      label: "**Did you check the documentation and specs?**"
+      description: "If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback)."
       options:
         - label: "Yes"
     validations:
@@ -34,8 +34,8 @@ body:
   - type: checkboxes
     id: verify-check-discussions
     attributes:
-      label: **Did you check for duplicate questions?**
-      description: Please check the existing [discussion](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions).
+      label: "**Did you check for duplicate questions?**"
+      description: "Please check the existing [discussion](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions)."
       options:
         - label: "Yes"
     validations:
@@ -60,7 +60,7 @@ body:
   - type: checkboxes
     id: request-type
     attributes:
-      label: **Please select the type of request**
+      label: "**Please select the type of request**"
       options:
         - label: "Bug Report"
         - label: "Feature Request"
@@ -103,19 +103,19 @@ body:
     id: software-versions
     attributes:
       label: details
-      description: Software Versions (op-contracts, op-node, op-geth, op-challenger, etc.).
+      description: "Software Versions (op-contracts, op-node, op-geth, op-challenger, etc.)."
 
   - type: textarea
     id: operating-system
     attributes:
       label: details
-      description: (Optional) Specify the operating system used.
+      description: "(Optional) Specify the operating system used."
 
   - type: textarea
     id: hardware-resources
     attributes:
       label: details
-      description: (Optional) Describe the hardware resources, infrastructure setup, or any other relevant settings.
+      description: "(Optional) Describe the hardware resources, infrastructure setup, or any other relevant settings."
 
   - type: markdown
     attributes:
@@ -156,33 +156,4 @@ body:
     attributes:
       value: |
         **Purpose and Benefits**
-        Explain the purpose of this feature and how it would benefit users or improve the protocol.
-
-  - type: textarea
-    id: purpose-benefits
-    attributes:
-      label: details
-
-  - type: markdown
-    attributes:
-      value: |
-        **Relevant Context or Examples**
-        Include any relevant context, use cases, or examples that support your request.
-
-  - type: textarea
-    id: context-examples
-    attributes:
-      label: details
-
-  - type: markdown
-    attributes:
-      value: |
-        ## Additional Information
-
-        **Please provide any additional information that may help us answer your question.**
-        This could include previous troubleshooting steps you've taken, other resources you have consulted, etc.
-
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: details
+        Explain the purpose of this feature and
