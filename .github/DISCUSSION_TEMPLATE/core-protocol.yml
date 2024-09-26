@@ -1,12 +1,12 @@
-title: "[Miscellaneous] <Title>"
-labels: ["miscellaneous", "discussion-metrics"]
+title: "[Core Protocol] <Title>"
+labels: ["core-protocol", "discussion-metrics"]
 body:
   - type: markdown
     attributes:
       value: |
-        # Miscellaneous
-        
-        **Use Case:** Use this template for inquiries that **DO NOT** fit into the core protocol, node operations, deploying the OP stack, or application development categories.
+        # Core Protocol
+
+        **Use Case:** Use this template for inquiries related to the core protocol such as technical behaviour, specifications, or protocol-level interactions.
         
         ### **Before proceeding, please consult the following resources:**
 
