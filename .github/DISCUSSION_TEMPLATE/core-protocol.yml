@@ -17,7 +17,8 @@ body:
       description: If our [documentation](https://docs.optimism.io/) or [specs](https://specs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).
       options:
         - label: "Yes"
-          required: true
+    validations:
+      required: true
 
   - type: textarea
     id: unclear-info
@@ -34,7 +35,8 @@ body:
       description: Please check the existing [discussion](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions).
       options:
         - label: "Yes"
-          required: true
+    validations:
+      required: true
 
   - type: textarea
     id: duplicate-questions
@@ -56,8 +58,8 @@ body:
       options:
         - label: "Bug Report"
         - label: "Feature Request"
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: markdown
     attributes:
