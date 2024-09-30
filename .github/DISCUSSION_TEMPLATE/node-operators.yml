@@ -73,13 +73,13 @@ body:
     validations:
       required: true
 
-  # - type: textarea
-  #   id: issue-description
-  #   attributes:
-  #     label: Issue Description
-  #     description: 'Please describe, in detail, the issue you are having.'
-  #   validations:
-  #     required: true
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: 'Please describe, in detail, the issue you are having.'
+    validations:
+      required: true
   # - type: textarea
   #   id: protocol-description
   #   attributes:
