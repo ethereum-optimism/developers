@@ -1,76 +1,114 @@
-title: "[Node Operator Question] <Title>"
-labels: ["node-operator", "discussion-metrics"]
+title: '[Node Operator Question] <Title>'
+labels:
+  - node-operator
+  - discussion-metrics
 body:
   - type: markdown
     attributes:
       value: |
         # Node Operator Questions
-        
-        Before proceeding, please consult the following resources.
 
+        Before proceeding, please consult the following resources.
   - type: checkboxes
     id: verify-latest-software
     attributes:
-      label: Are you running the most up to date node software?
-      description: We only support the latest software releases. See our [documentation](https://docs.optimism.io/builders/node-operators/releases) to check if you're up to date.
+      label: Is your node software up to date?
+      description: >-
+        We only support the latest software versions. Please check our  [release
+        documentation](https://docs.optimism.io/builders/node-operators/releases) 
+        to ensure your node is running the most recent version.
       options:
-        - label: "Yes"
+        - label: 'Yes, I am running the latest version'
           required: true
-          
   - type: checkboxes
     id: verify-check-docs
     attributes:
-      label: Did you check the documentation?
-      description: If our [documentation](https://docs.optimism.io/) didn't answer your question, please let us know how we can improve them by giving us [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).
+      label: Did you check the documentation and specs?
+      description: >-
+        If our [documentation](https://docs.optimism.io/) or
+        [specs](https://specs.optimism.io/) didn't answer your question, please
+        let us know how we can improve them by giving us
+        [feedback](https://github.com/ethereum-optimism/developers/discussions/categories/feedback).
       options:
-        - label: "Yes"
+        - label: 'Yes'
           required: true
-
+  - type: textarea
+    id: unclear-info
+    attributes:
+      label: Was anything unclear or missing?
+      description: >-
+        If any information was unclear or missing, please describe what you were
+        looking for and where you tried to find it.
   - type: checkboxes
     id: verify-check-discussions
     attributes:
-      label: Did you check for duplicate questions?
-      description: Please check the open and clossed [discussions](https://github.com/ethereum-optimism/developers/discussions) questions first. [How to search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions)
+      label: 'Have you checked for duplicate questions?'
+      description: >-
+        Before posting, please review both open and closed 
+        [discussions](https://github.com/ethereum-optimism/developers/discussions) 
+        to ensure your question hasn't already been answered. 
+        Here's how to [search GitHub discussions](https://docs.github.com/en/search-github/searching-on-github/searching-discussions).
       options:
-        - label: "Yes"
+        - label: 'Yes, I have checked for duplicate questions'
           required: true
-        
+
   - type: textarea
-    id: issue-description
+    id: duplicate-questions
     attributes:
-      label: Issue Description
-      description: Please describe, in detail, the issue you are having.
+      label: 'Links to Similar Questions or Issues'
+      description: 'If you found similar questions or issues, please provide the links here.'
+
+  - type: markdown
+    attributes:
+      value: |
+        ## What Type of Request Are You Submitting?
+
+  - type: checkboxes
+    id: request-type
+    attributes:
+      label: 'Select the type of request:'
+      options:
+        - label: 'Bug Report'
+        - label: 'Feature Request'
     validations:
       required: true
 
-  - type: textarea
-    id: protocol-description
-    attributes:
-      label: Protocol Description
-      description: |
-        Please provide:
-          - `op-geth` version
-          - `op-node` version
-          - network name 
-          - chainid
-          - L1 chain
-    validations:
-      required: true
-
-  - type: textarea
-    id: node-logs
-    attributes:
-      label: Node Logs
-      description: Please copy and paste relevant logs from the `op-node` and/or `op-geth`.
-
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: Additional Information
-      description: Please provide any additional information that may help us answer your question.
-
-  - type: textarea
-    id: feedback
-    attributes:
-      label: Feedback
-      description: How can we improve? Are there documentation or resources that don't exist and would serve you better?
+  # - type: textarea
+  #   id: issue-description
+  #   attributes:
+  #     label: Issue Description
+  #     description: 'Please describe, in detail, the issue you are having.'
+  #   validations:
+  #     required: true
+  # - type: textarea
+  #   id: protocol-description
+  #   attributes:
+  #     label: Protocol Description
+  #     description: |
+  #       Please provide:
+  #         - `op-geth` version
+  #         - `op-node` version
+  #         - network name
+  #         - chainid
+  #         - L1 chain
+  #   validations:
+  #     required: true
+  # - type: textarea
+  #   id: node-logs
+  #   attributes:
+  #     label: Node Logs
+  #     description: Please copy and paste relevant logs from the `op-node` and/or `op-geth`.
+  # - type: textarea
+  #   id: additional-information
+  #   attributes:
+  #     label: Additional Information
+  #     description: >-
+  #       Please provide any additional information that may help us answer your
+  #       question.
+  # - type: textarea
+  #   id: feedback
+  #   attributes:
+  #     label: Feedback
+  #     description: >-
+  #       How can we improve? Are there documentation or resources that don't
+  #       exist and would serve you better?
