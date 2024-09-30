@@ -104,7 +104,7 @@ body:
           - `op-node` version
           - network name 
           - chain ID
-          - L1 chain (e.g., Ethereum, Optimism, etc.)
+          - L1 chain
     validations:
       required: true
   - type: textarea
