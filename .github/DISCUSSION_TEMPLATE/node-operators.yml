@@ -74,3 +74,13 @@ body:
     attributes:
       label: Feedback
       description: How can we improve? Are there documentation or resources that don't exist and would serve you better?
+  - type: checkboxes
+    id: component-affected
+    attributes:
+      label: Which component is affected?
+      options:
+        - label: op-geth
+        - label: op-node
+        - label: Other
+    validations:
+      required: true
