@@ -8,7 +8,7 @@ body:
       value: |
         # Node Operator Questions
 
-        Before proceeding, please consult the following resources.
+        **Use Case:** Use this template for inquiries related to the core protocol such as technical behaviour, specifications, or protocol-level interactions.
   - type: checkboxes
     id: verify-latest-software
     attributes:
