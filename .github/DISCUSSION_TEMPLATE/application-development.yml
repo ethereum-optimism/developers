@@ -62,8 +62,6 @@ body:
         diagnose the problem.
     validations:
       required: true
-    conditional:
-      condition: issue-type == 'Error'
   - type: checkboxes
     id: library-in-use
     attributes:
