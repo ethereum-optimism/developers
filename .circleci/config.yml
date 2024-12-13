@@ -43,9 +43,9 @@ jobs:
           github-token: $GITHUB_TOKEN
           repo: << parameters.repo >>
           file-path: "./issue_metrics.md"
-          issue-title: "New Issue from File"
-          issue-labels: "bug, documentation"
-          assignees: "raffaele-oplabs"
+          issue-title: "${LAST_MONTH} discussions question & answer report"
+          issue-labels: "monthly-report"
+          assignees: "sbvegan"
 
 # Define workflows and their triggers
 workflows:
