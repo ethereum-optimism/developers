@@ -46,12 +46,97 @@ jobs:
           issue-title: "${LAST_MONTH} discussions question & answer report"
           issue-labels: "monthly-report"
           assignees: "sbvegan"
+  developer-issue-metrics:
+    description: Monthly Issue Metrics Report
+    executor: linux
+    parameters:
+      repo:
+        type: string
+        default: $CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME
+    steps:
+      - utils/get-github-access-token:
+          private-key-str: $GITHUB_APP_KEY
+          app-id: $GITHUB_APP_ID
+          repo: << parameters.repo >>
+          token-name: GITHUB_TOKEN
+      - run:
+          name: Get Dates for Last Month
+          command: |
+            # Calculate the first day of the previous month
+            first_day=$(date -d "last month" +%Y-%m-01)
+
+
+            # Calculate the last day of the previous month
+            last_day=$(date -d "$first_day +1 month -1 day" +%Y-%m-%d)
+
+            # Export the last_month variable for subsequent steps
+            echo "export LAST_MONTH=${first_day}..${last_day}" >> $BASH_ENV
+      - utils/issue-metrics:
+          GH_TOKEN: $GITHUB_TOKEN
+          SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue created:${LAST_MONTH} -reason:"not planned" -label:monthly-report'
+          file-path: "./issue_metrics.md"
+      - utils/create-issue-from-file:
+          github-token: $GITHUB_TOKEN
+          repo: << parameters.repo >>
+          file-path: "./issue_metrics.md"
+          issue-title: "${LAST_MONTH} metrics report for closed issues"
+          issue-labels: "monthly-report"
+          assignees: "sbvegan"
+
+  developer-pr-metrics:
+    description: Monthly PR Metrics Report
+    executor: linux
+    parameters:
+      repo:
+        type: string
+        default: $CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME
+    steps:
+      - utils/get-github-access-token:
+          private-key-str: $GITHUB_APP_KEY
+          app-id: $GITHUB_APP_ID
+          repo: << parameters.repo >>
+          token-name: GITHUB_TOKEN
+      - run:
+          name: Get Dates for Last Month
+          command: |
+            # Calculate the first day of the previous month
+            first_day=$(date -d "last month" +%Y-%m-01)
+
+
+            # Calculate the last day of the previous month
+            last_day=$(date -d "$first_day +1 month -1 day" +%Y-%m-%d)
+
+            # Export the last_month variable for subsequent steps
+            echo "export LAST_MONTH=${first_day}..${last_day}" >> $BASH_ENV
+      - utils/issue-metrics:
+          GH_TOKEN: $GITHUB_TOKEN
+          SEARCH_QUERY: "repo:ethereum-optimism/developers is:pr created:${LAST_MONTH}"
+          file-path: "./issue_metrics.md"
+      - utils/create-issue-from-file:
+          github-token: $GITHUB_TOKEN
+          repo: << parameters.repo >>
+          file-path: "./issue_metrics.md"
+          issue-title: "${LAST_MONTH} metrics report for opened prs"
+          issue-labels: "monthly-report"
+          assignees: "sbvegan"
 
 # Define workflows and their triggers
 workflows:
-  developer_support_metrics_workflow:
+  developer-discussion-metrics-workflow:
     when:
       equal: [build_monthly, <<pipeline.schedule.name>>]
     jobs:
       - developer-discussion-metrics:
+          context: circleci-repo-developers
+  developer-issue-metrics-workflow:
+    when:
+      equal: [build_monthly, <<pipeline.schedule.name>>]
+    jobs:
+      - developer-issue-metrics:
+          context: circleci-repo-developers
+  developer-pr-metrics-workflow:
+    when:
+      equal: [build_monthly, <<pipeline.schedule.name>>]
+    jobs:
+      - developer-pr-metrics:
           context: circleci-repo-developers
