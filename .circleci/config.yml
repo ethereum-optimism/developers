@@ -1,0 +1,67 @@
+version: 2.1
+
+orbs:
+  utils: ethereum-optimism/circleci-utils@0.0.2
+
+executors:
+  linux:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: medium
+
+jobs:
+  developer-discussion-metrics:
+    description: Monthly Developer Discussion Metrics Report
+    executor: linux
+    parameters:
+      repo:
+        type: string
+        default: $CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME
+    steps:
+      - utils/get-github-access-token:
+          private-key-str: $GITHUB_APP_KEY
+          app-id: $GITHUB_APP_ID
+          repo: << parameters.repo >>
+          token-name: GITHUB_TOKEN
+      - run:
+          name: Get Dates for Last Month
+          command: |
+            # Calculate the first day of the previous month
+            first_day=$(date -d "last month" +%Y-%m-01)
+
+
+            # Calculate the last day of the previous month
+            last_day=$(date -d "$first_day +1 month -1 day" +%Y-%m-%d)
+
+            # Export the last_month variable for subsequent steps
+            echo "export LAST_MONTH=${first_day}..${last_day}" >> $BASH_ENV
+      - utils/issue-metrics:
+          GH_TOKEN: $GITHUB_TOKEN
+          SEARCH_QUERY: 'repo:ethereum-optimism/developers type:discussions created:${LAST_MONTH} label:"discussion-metrics"'
+          file-path: "./issue_metrics.md"
+      - utils/create-issue-from-file:
+          github-token: $GITHUB_TOKEN
+          repo: << parameters.repo >>
+          file-path: "./issue_metrics.md"
+          issue-title: "New Issue from File"
+          issue-labels: "bug, documentation"
+          assignees: "raffaele-oplabs"
+
+# Define workflows and their triggers
+workflows:
+  developer_support_metrics_workflow:
+    triggers:
+      - schedule:
+          cron: "0 0 1 * *" # Runs at midnight on the 1st day of every month
+          filters:
+            branches:
+              only:
+                - main # Run on 'main' branch only
+
+    jobs:
+      - developer-discussion-metrics:
+          context: circleci-repo-developers
+          filters:
+            branches:
+              ignore:
+                - /.*/ # Prevent the job from running on push events
