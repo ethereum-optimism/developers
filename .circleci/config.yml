@@ -123,20 +123,20 @@ jobs:
 # Define workflows and their triggers
 workflows:
   developer-discussion-metrics-workflow:
-    when:
-      equal: [build_monthly, <<pipeline.schedule.name>>]
+    # when:
+    #   equal: [build_monthly, <<pipeline.schedule.name>>]
     jobs:
       - developer-discussion-metrics:
           context: circleci-repo-developers
   developer-issue-metrics-workflow:
-    when:
-      equal: [build_monthly, <<pipeline.schedule.name>>]
+    # when:
+    #   equal: [build_monthly, <<pipeline.schedule.name>>]
     jobs:
       - developer-issue-metrics:
           context: circleci-repo-developers
   developer-pr-metrics-workflow:
-    when:
-      equal: [build_monthly, <<pipeline.schedule.name>>]
+    # when:
+    #   equal: [build_monthly, <<pipeline.schedule.name>>]
     jobs:
       - developer-pr-metrics:
           context: circleci-repo-developers
