@@ -50,19 +50,18 @@ jobs:
 # Define workflows and their triggers
 workflows:
   developer_support_metrics_workflow:
-    triggers:
-      - schedule:
-          cron: "0 0 1 * *" # Runs at midnight on the 1st day of every month
-          filters:
-            branches:
-              only:
-                - main # Run on 'main' branch only
+    # triggers:
+    #   - schedule:
+    #       cron: "0 0 1 * *" # Runs at midnight on the 1st day of every month
+    #       filters:
+    #         branches:
+    #           only:
+    #             - main # Run on 'main' branch only
 
     jobs:
       - developer-discussion-metrics:
           context: circleci-repo-developers
           # filters:
           #   branches:
-
           #     ignore:
           #       - /.*/ # Prevent the job from running on push events
