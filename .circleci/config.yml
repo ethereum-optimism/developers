@@ -135,9 +135,8 @@ workflows:
       - developer-issue-metrics:
           context: circleci-repo-developers
   developer-pr-metrics-workflow:
-    # test
-    # when:
-    #   equal: [build_monthly, <<pipeline.schedule.name>>]
+    when:
+      equal: [build_monthly, <<pipeline.schedule.name>>]
     jobs:
       - developer-pr-metrics:
           context: circleci-repo-developers
