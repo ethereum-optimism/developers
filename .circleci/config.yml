@@ -90,7 +90,6 @@ jobs:
           private-key-str: GITHUB_APP_KEY
           app-id: GITHUB_APP_ID
           repo: << parameters.repo >>
-          token-name: GITHUB_APP_TOKEN
       - run:
           name: Get Dates for Last Month
           command: |
