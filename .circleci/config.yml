@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  utils: ethereum-optimism/circleci-utils@0.0.3
+  utils: ethereum-optimism/circleci-utils@dev:first
 
 executors:
   linux:
@@ -22,7 +22,6 @@ jobs:
           private-key-str: GITHUB_APP_KEY
           app-id: GITHUB_APP_ID
           repo: << parameters.repo >>
-          token-name: GITHUB_APP_TOKEN
       - run:
           name: Get Dates for Last Month
           command: |
@@ -40,7 +39,6 @@ jobs:
           SEARCH_QUERY: 'repo:ethereum-optimism/developers type:discussions created:${LAST_MONTH} label:"discussion-metrics"'
           file-path: "./issue_metrics.md"
       - utils/create-github-issue-from-file:
-          github-token: GITHUB_APP_TOKEN
           repo: << parameters.repo >>
           file-path: "./issue_metrics.md"
           issue-title: "${LAST_MONTH} discussions question & answer report"
@@ -58,7 +56,6 @@ jobs:
           private-key-str: GITHUB_APP_KEY
           app-id: GITHUB_APP_ID
           repo: << parameters.repo >>
-          token-name: GITHUB_APP_TOKEN
       - run:
           name: Get Dates for Last Month
           command: |
@@ -72,11 +69,9 @@ jobs:
             # Export the last_month variable for subsequent steps
             echo "export LAST_MONTH=${first_day}..${last_day}" >> $BASH_ENV
       - utils/generate-issue-metrics-file:
-          GH_TOKEN: GITHUB_APP_TOKEN
           SEARCH_QUERY: 'repo:ethereum-optimism/developers is:issue created:${LAST_MONTH} -reason:\"not planned\" -label:monthly-report'
           file-path: "./issue_metrics.md"
       - utils/create-github-issue-from-file:
-          github-token: GITHUB_APP_TOKEN
           repo: << parameters.repo >>
           file-path: "./issue_metrics.md"
           issue-title: "${LAST_MONTH} metrics report for closed issues"
@@ -109,11 +104,9 @@ jobs:
             # Export the last_month variable for subsequent steps
             echo "export LAST_MONTH=${first_day}..${last_day}" >> $BASH_ENV
       - utils/generate-issue-metrics-file:
-          GH_TOKEN: GITHUB_APP_TOKEN
           SEARCH_QUERY: "repo:ethereum-optimism/developers is:pr created:${LAST_MONTH}"
           file-path: "./issue_metrics.md"
       - utils/create-github-issue-from-file:
-          github-token: GITHUB_APP_TOKEN
           repo: << parameters.repo >>
           file-path: "./issue_metrics.md"
           issue-title: "${LAST_MONTH} metrics report for opened prs"
