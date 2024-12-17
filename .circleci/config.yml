@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  utils: ethereum-optimism/circleci-utils@dev:first
+  utils: ethereum-optimism/circleci-utils@0.0.4
 
 executors:
   linux:
