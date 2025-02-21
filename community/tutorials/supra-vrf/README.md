@@ -1,4 +1,4 @@
-# [Supra](https://supraoracles.com/docs/overview/)
+# [Supra](https://docs.supra.com/oracles/overview)
 maintainer(s): @ksdumont
 
 ## What is Supra?
@@ -13,8 +13,8 @@ Supra’s VRF can provide the exact properties required for a random number gene
 
 Still looking for answers? We got them! Check out all the ways you can reach us:
 
-- Visit us at [supraoracles.com](https://supraoracles.com)
-- Read our [Docs](https://supraoracles.com/docs/overview)
+- Visit us at [supraoracles.com](https://supra.com/)
+- Read our [Docs](https://docs.supra.com/oracles/overview)
 - Chat with us on [Telegram](https://t.me/SupraOracles)
 - Follow us on [Twitter](https://twitter.com/SupraOracles)
 - Join our [Discord](https://discord.gg/supraoracles)
