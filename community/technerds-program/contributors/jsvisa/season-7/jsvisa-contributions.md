@@ -14,7 +14,7 @@ Each TechNERD should have a page in their contributors folder with their support
 | 2025-03-17 <-> 2025-03-23 |         5         |    M x1, S x4    |
 | 2025-03-24 <-> 2025-03-30 |         4         |       S x4       |
 | 2025-03-31 <-> 2025-04-06 |         2         |       S x2       |
-| 2025-04-07 <-> 2025-04-13 |         0         |        -         |
+| 2025-04-07 <-> 2025-04-13 |         1         |       S x1       |
 | 2025-04-14 <-> 2025-04-20 |         2         |    M x1, S x1    |
 | 2025-04-21 <-> 2025-04-27 |         2         |    M x1, S x1    |
 | 2025-04-28 <-> 2025-05-04 |         0         |        -         |
@@ -60,14 +60,13 @@ In Discussions link all the issues you assisted on (if other nerds where support
 | 2025-03-25 |    OP Stack    |     S      | [failed to deploy l2 chain with op-deployer](https://discord.com/channels/1326996400252387419/1353587607904456767/1354033454966116352)                           |
 | 2025-03-26 |    OP Stack    |     S      | [missing beacon node rpc](https://discord.com/channels/1326996400252387419/1349027053789511852/1354362275351367690)                                              |
 | 2025-03-26 |    OP Stack    |     S      | [the .deploy directory is not found](https://discord.com/channels/1326996400252387419/1349027053789511852/1354434089926529066)                                   |
-
-| 2025-04-03 | OP Stack | S | [distance to target block exceeds maximum proof window](https://discord.com/channels/1326996400252387419/1349027053789511852/1357244504972853458) |
-| 2025-04-03 | OP Stack | S | [use l1 rpc url instead of the l2 rpc](https://discord.com/channels/1326996400252387419/1349027053789511852/1357261989935579219) |
-
-| 2025-04-14 | OP Stack | M | [Full Node Storage Breakdown & Ancient Data on HDD](https://discord.com/channels/1326996400252387419/1349027053789511852/1360473652621217812) (with @hashigo) |
-| 2025-04-15 | OP Stack | S | [block hash in rollup is not match](https://discord.com/channels/1326996400252387419/1349026623885938688/1361696201967407237) |
-| 2025-04-22 | OP Stack | S | [wrong L1 RPC URL](https://discord.com/channels/1326996400252387419/1363798649360093285/1364235736509055036) |
-| 2025-04-23 | OP Stack | M | [op-deployer version v0.0.0-c29b2094 not working](https://discord.com/channels/1326996400252387419/1363798649360093285/1364549485920911371) |
-| 2025-04-24 | OP Stack | S | [block syncing always backoff issue](https://discord.com/channels/1326996400252387419/1364645083051462726/1364758701197623407) |
-| 2025-04-24 | OP Stack | S | [op-geth not producing any block after restart](https://discord.com/channels/1326996400252387419/1364645083051462726/1365173703125631008) |
-| 2025-04-25 | OP Stack | S | [alchemy endpoint rate limited](https://discord.com/channels/1326996400252387419/1364645083051462726/1365175008363806810) |
+| 2025-04-03 |    OP Stack    |     S      | [distance to target block exceeds maximum proof window](https://discord.com/channels/1326996400252387419/1349027053789511852/1357244504972853458)                |
+| 2025-04-03 |    OP Stack    |     S      | [use l1 rpc url instead of the l2 rpc](https://discord.com/channels/1326996400252387419/1349027053789511852/1357261989935579219)                                 |
+| 2025-04-13 |    OP Stack    |     S      | [EVM ALTDA + L1Proxy failed to fork](https://github.com/ethereum-optimism/developers/discussions/638#discussioncomment-12823618)                                 |
+| 2025-04-14 |    OP Stack    |     M      | [Full Node Storage Breakdown & Ancient Data on HDD](https://discord.com/channels/1326996400252387419/1349027053789511852/1360473652621217812) (with @hashigo)    |
+| 2025-04-15 |    OP Stack    |     S      | [block hash in rollup is not match](https://discord.com/channels/1326996400252387419/1349026623885938688/1361696201967407237)                                    |
+| 2025-04-22 |    OP Stack    |     S      | [wrong L1 RPC URL](https://discord.com/channels/1326996400252387419/1363798649360093285/1364235736509055036)                                                     |
+| 2025-04-23 |    OP Stack    |     M      | [op-deployer version v0.0.0-c29b2094 not working](https://discord.com/channels/1326996400252387419/1363798649360093285/1364549485920911371)                      |
+| 2025-04-24 |    OP Stack    |     S      | [block syncing always backoff issue](https://discord.com/channels/1326996400252387419/1364645083051462726/1364758701197623407)                                   |
+| 2025-04-24 |    OP Stack    |     S      | [op-geth not producing any block after restart](https://discord.com/channels/1326996400252387419/1364645083051462726/1365173703125631008)                        |
+| 2025-04-25 |    OP Stack    |     S      | [alchemy endpoint rate limited](https://discord.com/channels/1326996400252387419/1364645083051462726/1365175008363806810)                                        |
