@@ -21,6 +21,7 @@ Each TechNERD should have a page in their contributors folder with their support
 | 2025-04-14 <-> 2025-04-20 |         3         |    M x1, S x2    |
 | 2025-04-21 <-> 2025-04-27 |         0         |        -         |
 | 2025-04-28 <-> 2025-05-04 |         2         |    M x1, S x1    |
+| 2025-05-05 <-> 2025-05-11 |         1         |       M x1       |
 
 ## Issues
 
@@ -101,3 +102,4 @@ In Discussions link all the issues you assisted on (if other nerds were supporti
 | 2025-04-16 |    Interop     |     S      | [Uniswap V4 Deployment on Superchain Interop Devnet](https://discord.com/channels/1326996400252387419/1349027825600040991/1362061199142813828)                                                                       |
 | 2025-05-02 |    OP Stack    |     S      | [Batch Resubmission Handling During Ethereum Forks](https://discord.com/channels/1326996400252387419/1349027053789511852/1366851313924575272)                                                                        |
 | 2025-05-02 |    Interop     |     M      | [Curious about atomic cross-chain messaging between OP Stack chains](https://github.com/ethereum-optimism/developers/discussions/796) (with @imtipi)                                                                 |
+| 2025-05-11 |    OP Stack    |     M      | [Chain Database Gap Diagnosis & Resync Recommendation](https://discord.com/channels/1326996400252387419/1349027053789511852/1370457758490562792)                                                                     |
