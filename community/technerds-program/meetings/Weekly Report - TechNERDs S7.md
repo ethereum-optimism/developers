@@ -451,6 +451,97 @@ This is the weekly report for the TechNERDs. Here we summarize key tasks, team f
     - **Key tasks and goals for the next week.**
     - Any new areas that need additional focus.
 </details>
+<details>
+<summary><b>Week 14 - 2025/5/12 to 2025/5/18</b></summary>
+
+- **Main Focus**
+    - Brief summary of the week’s main objectives, priorities, and key achievements.
+        1.  **Github Discussion:** Created  9, Closed  6**; Discord Ticket:** Created 0
+        2. **Discord** : [**Superchain Devs Weekly Digest**](https://www.notion.so/Weekly-Report-TechNERDs-S7-19da10f7e9568065894bd1b41c19b5c7?pvs=21)
+        3. **T1p1 has been investigating several issues by reading the code directly**, which helps our team answer questions that go beyond the scope of the official documentation.
+        4. **Over the past week, Simple8720 has changed the category of several discussions.** These include reclassifying posts under topics such as L3, Hack OP Stack code, docs issues, and a widely reported proposer warning log. These changes are expected to impact our metrics, as categories like "general" and "feedback" are typically not included in performance evaluations. [More details](https://docs.google.com/spreadsheets/d/1g5nB5j2EWRVpwLLqHWOWOSeXYx3LGKA74a5DBy4qYMk/edit?usp=sharing)
+- **Team Feedback**
+    - Feedback received from team members.
+        
+        **Regarding the start date of Season 7**, this report uses February 10 as the beginning. This differs significantly from the start date of January 21, 2025, listed in the [Foundation Mission Request: TechNERDs S7 [CONTRIBUTION]](https://github.com/ethereum-optimism/ecosystem-contributions/issues/268). Personally, I lean towards recognizing February 10 as the start date and extending the deadline accordingly, as this would help us meet our goals.
+        
+    - Actions taken in response to feedback, if applicable.
+        
+        
+- **Next Week’s Priorities**
+    - **Key tasks and goals for the next week.**
+    - Any new areas that need additional focus.
+</details>
+<details>
+<summary><b>Week 15 - 2025/5/19 to 2025/5/25</b></summary>
+
+- **Main Focus**
+    - Brief summary of the week’s main objectives, priorities, and key achievements.
+        1.  **Github Discussion:** Created  3, Closed  2**; Discord Ticket:** Created 0
+        2. **Discord** : [**Superchain Devs Weekly Digest**](https://www.notion.so/Weekly-Report-TechNERDs-S7-19da10f7e9568065894bd1b41c19b5c7?pvs=21)
+        3. Increased activity in the Superchain Devs Discord.
+        4. Updated the [TechNERD Project Tracking](https://www.notion.so/TechNERD-Project-Tracking-1d65831e345280b69a85decb099d9783?pvs=21).
+        5. [Collected and compiled several focused community feedback points into a report.](https://www.notion.so/Weekly-Report-TechNERDs-S7-19da10f7e9568065894bd1b41c19b5c7?pvs=21)
+- **Team Feedback**
+    - Feedback received from team members.
+        
+        A **proposer issue**: Despite observing successful publishes, the following warning is frequently triggered. Its repeated appearance has confused some developers:
+        
+        ```
+        WARN [05-23|11:22:15.888] Failed to create a transaction, will retry service=proposer err="failed to estimate gas: execution reverted, reason:
+        0x014f6fe5a409c1f4d5b1a6c8d6b979a05cc320b178ea30934de632448cb924320e8cec3c"
+        
+        ```
+        
+        Related discussions:
+        
+        - Discord: [1](https://discord.com/channels/1326996400252387419/1375366211826749542/1375434606517420092)
+        - GitHub: [2](https://github.com/ethereum-optimism/developers/discussions/806#discussion-8290904), [3](https://github.com/ethereum-optimism/developers/discussions/806#discussioncomment-13113234), [4](https://github.com/ethereum-optimism/developers/discussions/789#discussioncomment-12937377)
+        
+        ---
+        
+        A **bridge-related suggestion**: We've occasionally encountered developers overlooking the fact that some tokens have **custom bridge contracts**, mistakenly using the standard bridge contracts instead—leading to asset loss. We believe this should be clearly noted somewhere in the documentation.
+        
+        Examples:
+        
+        - Discord: [DAI](https://discord.com/channels/1326996400252387419/1374397519190167663/1374454887516999711), [PRIME](https://discord.com/channels/667044843901681675/1277837837026201621/1277848850333171776), [wstETH](https://discord.com/channels/667044843901681675/1080862392281481246/1235542295722590260)
+        
+        **historical transactions before November 2021**
+        
+    - Actions taken in response to feedback, if applicable.
+        
+        
+- **Next Week’s Priorities**
+    - **Key tasks and goals for the next week.**
+    - Any new areas that need additional focus.
+</details>
+<details>
+<summary><b>Week 16 - 2025/5/26 to 2025/6/1</b></summary>
+
+- **Main Focus**
+    - Brief summary of the week’s main objectives, priorities, and key achievements.
+        1. **Github Discussion:** Created  6, Closed  5**; Discord Ticket:** Created 1
+        2. **Discord** : [**Superchain Devs Weekly Digest**](https://www.notion.so/Weekly-Report-TechNERDs-S7-19da10f7e9568065894bd1b41c19b5c7?pvs=21)
+        3. **Superchain devs** have added a new channel, **#Roast My App**, for developers to receive feedback on their applications.
+        4. The **GitHub discussion data** for May has been added: [link](https://www.notion.so/Data-Collection-Request-1bca10f7e95680f7acfedee7f701919a?pvs=21)
+        5. Reminding team members of **thoughts and suggestions in preparation for Season 8**
+        6. **Tipi** is tracking faucet issues: Superchain faucet appears to have problems with World ID login. [More details on Discord](https://discord.com/channels/1326996400252387419/1349027053789511852/1378051145578184704)
+        7. **Simple8720** reported a documentation issue: [Dune query method for accessing pre-regenesis history is broken](https://github.com/ethereum-optimism/docs/issues/1634)
+        8. Team members are required to **submit their individual contributions on GitHub**. With this week’s submission completed, the current submission frequency is once per month.
+- **Team Feedback**
+    - Feedback received from team members.
+        
+        Summary of previously mentioned internal team feedback:
+        
+        1. [Feedback on the Contribution Report Template](https://www.notion.so/Weekly-Report-TechNERDs-S7-19da10f7e9568065894bd1b41c19b5c7?pvs=21)
+        2. [Regarding the start date of Season 7](https://www.notion.so/Weekly-Report-TechNERDs-S7-19da10f7e9568065894bd1b41c19b5c7?pvs=21)
+    - Actions taken in response to feedback, if applicable.
+        
+        
+- **Next Week’s Priorities**
+    - **Key tasks and goals for the next week.**
+    - Any new areas that need additional focus.
+</details>
 
 ### **Usage Instructions**:
 
