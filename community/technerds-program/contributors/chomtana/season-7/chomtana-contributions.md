@@ -6,6 +6,9 @@ Each TechNERD should have a page in their contributors folder with their support
 
 |           Week            | Total Discussions | Difficulty Count |
 | :-----------------------: | :---------------: | :--------------: |
+| 2025-01-21 <-> 2025-01-26 |         4         |    S x4          |
+| 2025-01-27 <-> 2025-02-02 |                   |                  |
+| 2025-02-03 <-> 2025-02-09 |                   |                  |
 | 2025-02-10 <-> 2025-02-16 |         8         |    S x8          |
 | 2025-02-17 <-> 2025-02-23 |         7         |    S x7          |
 | 2025-02-24 <-> 2025-03-02 |         2         |    M x1, S x1    |
@@ -27,6 +30,11 @@ In Discussions link all the issues you assisted on (if other nerds where support
 
 | Issue Date | Question Topic | Difficulty | Discussion Link |
 |:----------:|:--------------:|:----------:|:-------------------|
+| 2025-01-22 | Interop | S | [Testing superchainERC20](https://discord.com/channels/667044843901681675/1080862392281481246/1331474257095426078) |
+| 2025-01-22 | OP Stack | S | [Walking back L1Block by hash take weeks](https://discord.com/channels/667044843901681675/1080862392281481246/1331403401111801977) |
+| 2025-01-22 | OP Stack | S | [op-proposer error](https://discord.com/channels/667044843901681675/1080862392281481246/1331475204622389340) |
+| 2025-01-25 | OP Stack | S | [Experience deploying OP Stack in Hyperledger Besu QBFT (private network)](https://github.com/ethereum-optimism/developers/discussions/709) |
+
 | 2025-02-10 | OP Stack | S | [Failed to dial address](https://discord.com/channels/667044843901681675/1141037410717814844/1338488920509255691) |
 | 2025-02-11 | OP Stack | S | [OP-Geth not showing relevant messages in Log](https://github.com/ethereum-optimism/developers/discussions/721) |
 | 2025-02-11 | Node Operator | S | [Archive node storage requirement problem](https://discord.com/channels/667044843901681675/1080862392281481246/1338845555886915648) |
