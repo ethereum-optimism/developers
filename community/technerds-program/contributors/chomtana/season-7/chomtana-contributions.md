@@ -30,6 +30,9 @@ Each TechNERD should have a page in their contributors folder with their support
 | 2025-06-16 <-> 2025-06-22 |         0         |                  |
 | 2025-06-23 <-> 2025-06-29 |         2         |    S x2          |
 | 2025-06-30 <-> 2025-07-06 |         0         |                  |
+| 2025-07-07 <-> 2025-07-13 |         0         |                  |
+| 2025-07-14 <-> 2025-07-20 |         5         |    S x5          |
+| 2025-07-21 <-> 2025-07-24 |         1         |    M x1          |
 
 
 ## Issues 
@@ -113,7 +116,14 @@ In Discussions link all the issues you assisted on (if other nerds where support
 | 2025-05-26 | OP Stack | M | [Is there any info on how to raise the block gas limit on a network?](https://discord.com/channels/1326996400252387419/1349027053789511852/1376508176295268372) |
 | 2025-05-29 | Node Operator | S | [failed to check L1 Beacon API version: operation failed permanently after 5 attempts: failed request with status 404: : not found](https://discord.com/channels/1326996400252387419/1349026623885938688/1377612564409614477) |
 | 2025-06-04 | OP Stack | M | [Can not find the value of L2OutputOracleProxy](https://github.com/ethereum-optimism/developers/discussions/832) |
-| 2025-06-09 | OP Stack | M | [What is the latest version of the contracts that supports alt-da GenericCommitment? Is L2OutputOracle required for alt-da GenericCommitment? Should we use the legacy deploy method or op-deployer?](https://github.com/ethereum-optimism/developers/discussions/835) |
+| 2025-06-09 | OP Deployer | M | [What is the latest version of the contracts that supports alt-da GenericCommitment? Is L2OutputOracle required for alt-da GenericCommitment? Should we use the legacy deploy method or op-deployer?](https://github.com/ethereum-optimism/developers/discussions/835) |
 | 2025-06-10 | OP Stack | S | [Any way to reduce block time for supersim?](https://discord.com/channels/1326996400252387419/1349026623885938688/1381987053922811945) |
-| 2025-06-23 | OP Stack | S | [is it normal to have a lag of 500-800 blocks between unsafe_l2 and finalized_l2](https://discord.com/channels/1326996400252387419/1349027053789511852/1386632061737111552) |
+| 2025-06-23 | Node Operator | S | [is it normal to have a lag of 500-800 blocks between unsafe_l2 and finalized_l2](https://discord.com/channels/1326996400252387419/1349027053789511852/1386632061737111552) |
 | 2025-06-23 | OP Stack | S | [op-node failed to fetch proof of storage slot](https://discord.com/channels/1326996400252387419/1349027053789511852/1386636619502583859) |
+| 2025-07-14 | OP Stack | S | [What happens if we are using ALT-DA with permissioned fraud proofs enabled and an invalid state root is posted](https://discord.com/channels/1326996400252387419/1349027053789511852/1394278772630491218) |
+| 2025-07-15 | OP Deployer | S | [op-deployer compilation of a specific version](https://github.com/ethereum-optimism/developers/discussions/849) |
+| 2025-07-15 | OP Deployer | S | [Verify my contract in artifacts by using op-deployer failed](https://github.com/ethereum-optimism/developers/discussions/850) |
+| 2025-07-19 | OP Stack | S | [Can anyone suggest me how to use custom token as a gas token in L2?](https://discord.com/channels/1326996400252387419/1349027053789511852/1396046524193968179) |
+| 2025-07-19 | OP Deployer | S | [Which branch I should use for mainnet deployment?](https://discord.com/channels/1326996400252387419/1349027053789511852/1396055257037148240) |
+| 2025-07-22 | OP Stack | M | [Where and How to use these values, in system tx?](https://github.com/ethereum-optimism/developers/discussions/855) |
+
