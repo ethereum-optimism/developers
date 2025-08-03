@@ -21,6 +21,16 @@ Each TechNERD should have a page in their contributors folder with their support
 | 2025-04-14 <-> 2025-04-20 |         7         |    S x7          |
 | 2025-04-21 <-> 2025-04-27 |         4         |    S x4          |
 | 2025-04-28 <-> 2025-05-04 |         1         |    S x1          |
+| 2025-05-05 <-> 2025-05-11 |         1         |    M x1          |
+| 2025-05-12 <-> 2025-05-18 |         2         |    M x1, S x1    |
+| 2025-05-19 <-> 2025-05-25 |         3         |    S x3          |
+| 2025-05-26 <-> 2025-06-01 |         2         |    M x1, S x1    |
+| 2025-06-02 <-> 2025-06-08 |                   |                  |
+| 2025-06-09 <-> 2025-06-15 |                   |                  |
+| 2025-06-16 <-> 2025-06-22 |                   |                  |
+| 2025-06-23 <-> 2025-06-29 |                   |                  |
+| 2025-06-30 <-> 2025-07-06 |                   |                  |
+
 
 ## Issues 
 
@@ -94,3 +104,11 @@ In Discussions link all the issues you assisted on (if other nerds where support
 | 2025-04-25 | Node Operator | S | [Mode node holocene extraData should be 9 bytes, got 0](https://discord.com/channels/1326996400252387419/1349027053789511852/1365282433154678855) |
 | 2025-04-25 | Node Operator | S | [Is mode node docker compose script ok?](https://discord.com/channels/1326996400252387419/1349027053789511852/1365285121464471552) |
 | 2025-04-28 | OP Stack | S | [op-node run error](https://github.com/ethereum-optimism/developers/discussions/795) |
+| 2025-05-11 | OP Stack | M | [op-proposer error Failed to create a transaction](https://github.com/ethereum-optimism/developers/discussions/806) |
+| 2025-05-16 | Node Operator | S | [where can I find out ETA for eth_simulateV1 rpc call being added on OP stack?](https://discord.com/channels/1326996400252387419/1349026623885938688/1372745031051378708) |
+| 2025-05-16 | OP Stack | M | [Using op-deployer to deploy an L3](https://github.com/ethereum-optimism/developers/discussions/816) |
+| 2025-05-19 | OP Stack | S | [Bootnode alternative](https://github.com/ethereum-optimism/developers/discussions/788) |
+| 2025-05-20 | Node Operator | S | [Snap sync for archive node](https://discord.com/channels/1326996400252387419/1349027053789511852/1374376152042442792) |
+| 2025-05-22 | OP Stack | S | [op-proposer could not fetch output at current block number](https://discord.com/channels/1326996400252387419/1374748684398362771/1375037254006738974) |
+| 2025-05-26 | OP Stack | M | [Is there any info on how to raise the block gas limit on a network?](https://discord.com/channels/1326996400252387419/1349027053789511852/1376508176295268372) |
+| 2025-05-29 | Node Operator | S | [failed to check L1 Beacon API version: operation failed permanently after 5 attempts: failed request with status 404: : not found](https://discord.com/channels/1326996400252387419/1349026623885938688/1377612564409614477) |
