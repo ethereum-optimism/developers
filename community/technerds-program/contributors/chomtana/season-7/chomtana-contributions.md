@@ -25,11 +25,11 @@ Each TechNERD should have a page in their contributors folder with their support
 | 2025-05-12 <-> 2025-05-18 |         2         |    M x1, S x1    |
 | 2025-05-19 <-> 2025-05-25 |         3         |    S x3          |
 | 2025-05-26 <-> 2025-06-01 |         2         |    M x1, S x1    |
-| 2025-06-02 <-> 2025-06-08 |                   |                  |
-| 2025-06-09 <-> 2025-06-15 |                   |                  |
-| 2025-06-16 <-> 2025-06-22 |                   |                  |
-| 2025-06-23 <-> 2025-06-29 |                   |                  |
-| 2025-06-30 <-> 2025-07-06 |                   |                  |
+| 2025-06-02 <-> 2025-06-08 |         1         |    M x1          |
+| 2025-06-09 <-> 2025-06-15 |         2         |    M x1, S x1    |
+| 2025-06-16 <-> 2025-06-22 |         0         |                  |
+| 2025-06-23 <-> 2025-06-29 |         2         |    S x2          |
+| 2025-06-30 <-> 2025-07-06 |         0         |                  |
 
 
 ## Issues 
@@ -112,3 +112,8 @@ In Discussions link all the issues you assisted on (if other nerds where support
 | 2025-05-22 | OP Stack | S | [op-proposer could not fetch output at current block number](https://discord.com/channels/1326996400252387419/1374748684398362771/1375037254006738974) |
 | 2025-05-26 | OP Stack | M | [Is there any info on how to raise the block gas limit on a network?](https://discord.com/channels/1326996400252387419/1349027053789511852/1376508176295268372) |
 | 2025-05-29 | Node Operator | S | [failed to check L1 Beacon API version: operation failed permanently after 5 attempts: failed request with status 404: : not found](https://discord.com/channels/1326996400252387419/1349026623885938688/1377612564409614477) |
+| 2025-06-04 | OP Stack | M | [Can not find the value of L2OutputOracleProxy](https://github.com/ethereum-optimism/developers/discussions/832) |
+| 2025-06-09 | OP Stack | M | [What is the latest version of the contracts that supports alt-da GenericCommitment? Is L2OutputOracle required for alt-da GenericCommitment? Should we use the legacy deploy method or op-deployer?](https://github.com/ethereum-optimism/developers/discussions/835) |
+| 2025-06-10 | OP Stack | S | [Any way to reduce block time for supersim?](https://discord.com/channels/1326996400252387419/1349026623885938688/1381987053922811945) |
+| 2025-06-23 | OP Stack | S | [is it normal to have a lag of 500-800 blocks between unsafe_l2 and finalized_l2](https://discord.com/channels/1326996400252387419/1349027053789511852/1386632061737111552) |
+| 2025-06-23 | OP Stack | S | [op-node failed to fetch proof of storage slot](https://discord.com/channels/1326996400252387419/1349027053789511852/1386636619502583859) |
