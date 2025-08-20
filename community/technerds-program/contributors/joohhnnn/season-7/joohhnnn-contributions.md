@@ -21,6 +21,18 @@ Each TechNERD should have a page in their contributors folder with their support
 | 2025-04-14 <-> 2025-04-20 |         3         |    L x1, M x2    |
 | 2025-04-21 <-> 2025-04-27 |         1         |        M x1      |
 | 2025-04-28 <-> 2025-05-04 |         2         |    M x1, S x1    |
+| 2025-05-05 <-> 2025-05-11 |         3         |    M x2, S x1    |
+| 2025-05-12 <-> 2025-05-18 |         2         |        M x2      |
+| 2025-05-19 <-> 2025-05-25 |         1         |        M x1      |
+| 2025-05-26 <-> 2025-06-01 |         1         |        M x1      |
+| 2025-06-02 <-> 2025-06-08 |         0         |        -         |
+| 2025-06-09 <-> 2025-06-15 |         0         |        -         |
+| 2025-06-16 <-> 2025-06-22 |         2         |    M x1, S x1    |
+| 2025-06-23 <-> 2025-06-29 |         2         |        M x2      |
+| 2025-06-30 <-> 2025-07-06 |         1         |        M x1      |
+| 2025-07-07 <-> 2025-07-13 |         0         |        -         |
+| 2025-07-14 <-> 2025-07-20 |         1         |        M x1      |
+| 2025-07-21 <-> 2025-07-27 |         1         |        M x1      |
 
 ## Issues
 
@@ -63,3 +75,16 @@ In Discussions link all the issues you assisted on (if other nerds were supporti
 | 2025-05-04 |    OP Stack    |     S      | [Explanation of transaction](https://discord.com/channels/1326996400252387419/1367734618027065368/1368447162299580478)                                                                                      |
 | 2025-05-04 |    OP Stack    |     M      | [Update the code external example](https://github.com/ethereum-optimism/docs/pull/1598#event-17544481519)                                                                                                    |
 | 2025-05-06 |    Interop     |     M      | [RelayMessage error](https://discord.com/channels/1326996400252387419/1367734618027065368/1369062097517805598)                                                                                              |
+| 2025-05-07 |    OP Stack    |     S      | [Transaction logic hasn't been executed correctly](https://discord.com/channels/1326996400252387419/1367734618027065368/1369368145277620275)                                                                                              |
+| 2025-05-11 |    OP Stack    |     M      | [Docs issue](https://github.com/ethereum-optimism/docs/pull/1603)                                                                                              |
+| 2025-05-16 |    OP Stack    |     M      | [OptimismMintableERC20Factory issue](https://github.com/ethereum-optimism/developers/discussions/819)                                                                                              |
+| 2025-05-18 |    OP Stack    |     M      | [Syncing issue](https://discord.com/channels/1326996400252387419/1349027053789511852/1373665307620540437)                                                                                              |
+| 2025-05-19 |    OP Stack    |     M      | [L1 -> many L2s](https://github.com/ethereum-optimism/developers/discussions/819)                                                                                              |
+| 2025-05-31 |    OP Stack    |     M      | [The fastest way to sync OP with reth (no need archive specially)](https://discord.com/channels/1326996400252387419/1349026623885938688/1378348326759563385)                                                                                              |
+| 2025-06-21 |    Interop     |     S      | [When is expected the next interop alpha](https://discord.com/channels/1326996400252387419/1349026623885938688/1386071067382251680)                                                                                              |
+| 2025-06-21 |    Interop     |     M      | [Cross-domain messaging Issue](https://discord.com/channels/1326996400252387419/1349026623885938688/1386140609756004492)                                                                                              |
+| 2025-06-22 |    OP Stack    |     M      | [Run sequencer through op-node](https://discord.com/channels/1326996400252387419/1349027053789511852/1386137686066335776)                                                                                              |
+| 2025-06-29 |    Interop     |     M      | [RelayERC20 Issue](https://discord.com/channels/1326996400252387419/1387447687661621392/1388910681599774861)                                                                                              |
+| 2025-07-06 |    OP Stack    |     M      | [Op-deployer fails to apply to the chain after bootstrapping on a local geth dev node](https://github.com/ethereum-optimism/developers/discussions/846)                                                                                              |
+| 2025-07-19 |    OP Stack    |     M      | [Use custom token as a gas token](https://discord.com/channels/1326996400252387419/1349027053789511852/1396046149093298216)                                                                                              |
+| 2025-07-27 |    OP Stack    |     M      | [Pre-deployed issue](https://discord.com/channels/1326996400252387419/1349026623885938688/1399054439632867410)                                                                                              |
