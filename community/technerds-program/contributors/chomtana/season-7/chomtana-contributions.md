@@ -6,6 +6,9 @@ Each TechNERD should have a page in their contributors folder with their support
 
 |           Week            | Total Discussions | Difficulty Count |
 | :-----------------------: | :---------------: | :--------------: |
+| 2025-01-21 <-> 2025-01-26 |         4         |    S x4          |
+| 2025-01-27 <-> 2025-02-02 |         4         |    S x4          |
+| 2025-02-03 <-> 2025-02-09 |         3         |    S x3          |
 | 2025-02-10 <-> 2025-02-16 |         8         |    S x8          |
 | 2025-02-17 <-> 2025-02-23 |         7         |    S x7          |
 | 2025-02-24 <-> 2025-03-02 |         2         |    M x1, S x1    |
@@ -18,6 +21,19 @@ Each TechNERD should have a page in their contributors folder with their support
 | 2025-04-14 <-> 2025-04-20 |         7         |    S x7          |
 | 2025-04-21 <-> 2025-04-27 |         4         |    S x4          |
 | 2025-04-28 <-> 2025-05-04 |         1         |    S x1          |
+| 2025-05-05 <-> 2025-05-11 |         1         |    M x1          |
+| 2025-05-12 <-> 2025-05-18 |         2         |    M x1, S x1    |
+| 2025-05-19 <-> 2025-05-25 |         3         |    S x3          |
+| 2025-05-26 <-> 2025-06-01 |         2         |    M x1, S x1    |
+| 2025-06-02 <-> 2025-06-08 |         1         |    M x1          |
+| 2025-06-09 <-> 2025-06-15 |         2         |    M x1, S x1    |
+| 2025-06-16 <-> 2025-06-22 |         0         |                  |
+| 2025-06-23 <-> 2025-06-29 |         2         |    S x2          |
+| 2025-06-30 <-> 2025-07-06 |         0         |                  |
+| 2025-07-07 <-> 2025-07-13 |         0         |                  |
+| 2025-07-14 <-> 2025-07-20 |         5         |    S x5          |
+| 2025-07-21 <-> 2025-07-24 |         1         |    M x1          |
+
 
 ## Issues 
 
@@ -27,6 +43,17 @@ In Discussions link all the issues you assisted on (if other nerds where support
 
 | Issue Date | Question Topic | Difficulty | Discussion Link |
 |:----------:|:--------------:|:----------:|:-------------------|
+| 2025-01-22 | Interop | S | [Testing superchainERC20](https://discord.com/channels/667044843901681675/1080862392281481246/1331474257095426078) |
+| 2025-01-22 | OP Stack | S | [Walking back L1Block by hash take weeks](https://discord.com/channels/667044843901681675/1080862392281481246/1331403401111801977) |
+| 2025-01-22 | OP Stack | S | [op-proposer error](https://discord.com/channels/667044843901681675/1080862392281481246/1331475204622389340) |
+| 2025-01-25 | OP Stack | S | [Experience deploying OP Stack in Hyperledger Besu QBFT (private network)](https://github.com/ethereum-optimism/developers/discussions/709) |
+| 2025-01-29 | OP Stack | S | [Better way of running an archive node](https://discord.com/channels/667044843901681675/1080862392281481246/1334089141540880464) |
+| 2025-01-29 | OP Stack | S | [How big is an archive node?](https://discord.com/channels/667044843901681675/1080862392281481246/1334205393022488597) |
+| 2025-01-30 | OP Stack | S | [Gas refund?](https://discord.com/channels/667044843901681675/1080862392281481246/1334095836690513950) |
+| 2025-01-30 | OP Stack | S | [Alternative execution clients](https://discord.com/channels/667044843901681675/1080862392281481246/1334187843110572052) |
+| 2025-02-06 | OP Deployer | S | [OP Stack deployment script](https://discord.com/channels/667044843901681675/1080867873997729874/1337053910161948786) |
+| 2025-02-06 | OP Stack | S | [Is it neccessary to run op-challenger when running a permissioned Fault proof chain?](https://discord.com/channels/667044843901681675/1080867873997729874/1337055506237362186) |
+| 2025-02-09 | OP Deployer | S | [op-deployer bootstrap on holesky](https://discord.com/channels/667044843901681675/1080867873997729874/1338090394033852457) |
 | 2025-02-10 | OP Stack | S | [Failed to dial address](https://discord.com/channels/667044843901681675/1141037410717814844/1338488920509255691) |
 | 2025-02-11 | OP Stack | S | [OP-Geth not showing relevant messages in Log](https://github.com/ethereum-optimism/developers/discussions/721) |
 | 2025-02-11 | Node Operator | S | [Archive node storage requirement problem](https://discord.com/channels/667044843901681675/1080862392281481246/1338845555886915648) |
@@ -80,3 +107,23 @@ In Discussions link all the issues you assisted on (if other nerds where support
 | 2025-04-25 | Node Operator | S | [Mode node holocene extraData should be 9 bytes, got 0](https://discord.com/channels/1326996400252387419/1349027053789511852/1365282433154678855) |
 | 2025-04-25 | Node Operator | S | [Is mode node docker compose script ok?](https://discord.com/channels/1326996400252387419/1349027053789511852/1365285121464471552) |
 | 2025-04-28 | OP Stack | S | [op-node run error](https://github.com/ethereum-optimism/developers/discussions/795) |
+| 2025-05-11 | OP Stack | M | [op-proposer error Failed to create a transaction](https://github.com/ethereum-optimism/developers/discussions/806) |
+| 2025-05-16 | Node Operator | S | [where can I find out ETA for eth_simulateV1 rpc call being added on OP stack?](https://discord.com/channels/1326996400252387419/1349026623885938688/1372745031051378708) |
+| 2025-05-16 | OP Stack | M | [Using op-deployer to deploy an L3](https://github.com/ethereum-optimism/developers/discussions/816) |
+| 2025-05-19 | OP Stack | S | [Bootnode alternative](https://github.com/ethereum-optimism/developers/discussions/788) |
+| 2025-05-20 | Node Operator | S | [Snap sync for archive node](https://discord.com/channels/1326996400252387419/1349027053789511852/1374376152042442792) |
+| 2025-05-22 | OP Stack | S | [op-proposer could not fetch output at current block number](https://discord.com/channels/1326996400252387419/1374748684398362771/1375037254006738974) |
+| 2025-05-26 | OP Stack | M | [Is there any info on how to raise the block gas limit on a network?](https://discord.com/channels/1326996400252387419/1349027053789511852/1376508176295268372) |
+| 2025-05-29 | Node Operator | S | [failed to check L1 Beacon API version: operation failed permanently after 5 attempts: failed request with status 404: : not found](https://discord.com/channels/1326996400252387419/1349026623885938688/1377612564409614477) |
+| 2025-06-04 | OP Stack | M | [Can not find the value of L2OutputOracleProxy](https://github.com/ethereum-optimism/developers/discussions/832) |
+| 2025-06-09 | OP Deployer | M | [What is the latest version of the contracts that supports alt-da GenericCommitment? Is L2OutputOracle required for alt-da GenericCommitment? Should we use the legacy deploy method or op-deployer?](https://github.com/ethereum-optimism/developers/discussions/835) |
+| 2025-06-10 | OP Stack | S | [Any way to reduce block time for supersim?](https://discord.com/channels/1326996400252387419/1349026623885938688/1381987053922811945) |
+| 2025-06-23 | Node Operator | S | [is it normal to have a lag of 500-800 blocks between unsafe_l2 and finalized_l2](https://discord.com/channels/1326996400252387419/1349027053789511852/1386632061737111552) |
+| 2025-06-23 | OP Stack | S | [op-node failed to fetch proof of storage slot](https://discord.com/channels/1326996400252387419/1349027053789511852/1386636619502583859) |
+| 2025-07-14 | OP Stack | S | [What happens if we are using ALT-DA with permissioned fraud proofs enabled and an invalid state root is posted](https://discord.com/channels/1326996400252387419/1349027053789511852/1394278772630491218) |
+| 2025-07-15 | OP Deployer | S | [op-deployer compilation of a specific version](https://github.com/ethereum-optimism/developers/discussions/849) |
+| 2025-07-15 | OP Deployer | S | [Verify my contract in artifacts by using op-deployer failed](https://github.com/ethereum-optimism/developers/discussions/850) |
+| 2025-07-19 | OP Stack | S | [Can anyone suggest me how to use custom token as a gas token in L2?](https://discord.com/channels/1326996400252387419/1349027053789511852/1396046524193968179) |
+| 2025-07-19 | OP Deployer | S | [Which branch I should use for mainnet deployment?](https://discord.com/channels/1326996400252387419/1349027053789511852/1396055257037148240) |
+| 2025-07-22 | OP Stack | M | [Where and How to use these values, in system tx?](https://github.com/ethereum-optimism/developers/discussions/855) |
+
