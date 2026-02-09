@@ -22,6 +22,17 @@ Each TechNERD should have a page in their contributors folder with their support
 | 2025-04-21 <-> 2025-04-27 |         0         |        -         |
 | 2025-04-28 <-> 2025-05-04 |         2         |    M x1, S x1    |
 | 2025-05-05 <-> 2025-05-11 |         1         |       M x1       |
+| 2025-05-12 <-> 2025-05-18 |         0         |        -         |
+| 2025-05-19 <-> 2025-05-25 |         1         |       M x1       |
+| 2025-05-26 <-> 2025-06-01 |         0         |        -         |
+| 2025-06-02 <-> 2025-06-08 |         1         |       M x1       |
+| 2025-06-09 <-> 2025-06-15 |         1         |       S x1       |
+| 2025-06-16 <-> 2025-06-22 |         0         |        -         |
+| 2025-06-23 <-> 2025-06-29 |         0         |        -         |
+| 2025-06-30 <-> 2025-07-06 |         1         |       M x1       |
+| 2025-07-07 <-> 2025-07-13 |         0         |        -         |
+| 2025-07-14 <-> 2025-07-20 |         0         |        -         |
+| 2025-07-21 <-> 2025-07-24 |         1         |       S x1       |
 
 ## Issues
 
@@ -103,3 +114,8 @@ In Discussions link all the issues you assisted on (if other nerds were supporti
 | 2025-05-02 |    OP Stack    |     S      | [Batch Resubmission Handling During Ethereum Forks](https://discord.com/channels/1326996400252387419/1349027053789511852/1366851313924575272)                                                                        |
 | 2025-05-02 |    Interop     |     M      | [Curious about atomic cross-chain messaging between OP Stack chains](https://github.com/ethereum-optimism/developers/discussions/796) (with @imtipi)                                                                 |
 | 2025-05-11 |    OP Stack    |     M      | [Chain Database Gap Diagnosis & Resync Recommendation](https://discord.com/channels/1326996400252387419/1349027053789511852/1370457758490562792)                                                                     |
+| 2025-05-19 |    OP Stack    |     M      | [[OP Stack Deployment] op node run error #821](https://github.com/ethereum-optimism/developers/discussions/821)                                                                                                      |
+| 2025-06-03 |    OP Stack    |     M      | [Clarify L1 transaction fee calculation post‑Fjord](https://discord.com/channels/667044843901681675/1133131301847838750/1379358240785305600)                                                                         |
+| 2025-06-11 |    OP Stack    |     S      | [Confirm absence of 1 s block‑time reduction guide](https://discord.com/channels/1326996400252387419/1349026623885938688/1381664693231423588)                                                                        |
+| 2025-07-01 |    OP Stack    |     M      | [[OP Stack Deployment] Can't find the branch op-program/v1.6.1 #843](https://github.com/ethereum-optimism/developers/discussions/843)                                                                                |
+| 2025-07-23 |    OP Stack    |     S      | [Guide to obtaining Sepolia ETH for L2](https://discord.com/channels/1326996400252387419/1349026623885938688/1397548135441629244) (with @chomtana, @imtipi)                                                          |
